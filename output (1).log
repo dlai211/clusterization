@@ -1,0 +1,72 @@
+========================================================================================================================
+ File: RDO.33629030._000052.pool.root.1
+------------------------------------------------------------------------------------------------------------------------
+    Memory size        Disk Size       Size/Event  Compression Entries  Name (Type)
+------------------------------------------------------------------------------------------------------------------------
+         3.24 kB          3.24 kB     0.02 kB/event    1.00       200   index_ref () [*Unknown*]
+         6.89 kB          4.57 kB     0.02 kB/event    1.51       200   xAOD::EventInfo_v1_EventInfo (xAOD::EventInfo_v1) [*Unknown*]
+         6.48 kB          5.09 kB     0.03 kB/event    1.27       200   DataVector<xAOD::Jet_v1>_InTimeAntiKt4TruthJets (DataVector<xAOD::Jet_v1>) [*Unknown*]
+         6.48 kB          5.09 kB     0.03 kB/event    1.27       200   DataVector<xAOD::Jet_v1>_InTimeAntiKt6TruthJets (DataVector<xAOD::Jet_v1>) [*Unknown*]
+         6.64 kB          5.13 kB     0.03 kB/event    1.29       200   DataVector<xAOD::TruthParticle_v1>_TruthPileupParticles (DataVector<xAOD::TruthParticle_v1>) [*Unknown*]
+         6.54 kB          5.15 kB     0.03 kB/event    1.27       200   DataVector<xAOD::Jet_v1>_OutOfTimeAntiKt4TruthJets (DataVector<xAOD::Jet_v1>) [*Unknown*]
+         6.54 kB          5.15 kB     0.03 kB/event    1.27       200   DataVector<xAOD::Jet_v1>_OutOfTimeAntiKt6TruthJets (DataVector<xAOD::Jet_v1>) [*Unknown*]
+         6.46 kB          5.30 kB     0.03 kB/event    1.22       200   DataVector<xAOD::EventInfo_v1>_PileUpEventInfo (DataVector<xAOD::EventInfo_v1>) [*Unknown*]
+        89.19 kB         48.38 kB     0.24 kB/event    1.84       200   xAOD::TruthParticleAuxContainer_v1_TruthPileupParticles (<!!!Interface missing!!!>) [*Unknown*]
+        75.25 kB         49.68 kB     0.25 kB/event    1.51       200   TrackRecordCollection_p2_MuonEntryLayer (TrackRecordCollection_p2) [*Unknown*]
+       146.47 kB         75.68 kB     0.38 kB/event    1.94       200   TileMuonReceiverContainer_p1_TileMuRcvCnt (TileMuonReceiverContainer_p1) [*Unknown*]
+      4417.30 kB        214.97 kB     1.07 kB/event   20.55       200   TgcRdoContainer_p4_TGCRDO (TgcRdoContainer_p4) [*Unknown*]
+       673.22 kB        324.40 kB     1.62 kB/event    2.08       200   xAOD::AuxContainerBase_InTimeAntiKt4TruthJets (<!!!Interface missing!!!>) [*Unknown*]
+       673.22 kB        324.40 kB     1.62 kB/event    2.08       200   xAOD::AuxContainerBase_InTimeAntiKt6TruthJets (<!!!Interface missing!!!>) [*Unknown*]
+      1903.48 kB        412.38 kB     2.06 kB/event    4.62       200   Muon::MuonSimDataCollection_p2_RPC_SDO (Muon::MuonSimDataCollection_p2) [Muon]
+      1063.75 kB        416.50 kB     2.08 kB/event    2.55       200   xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJets (<!!!Interface missing!!!>) [*Unknown*]
+      1063.75 kB        416.50 kB     2.08 kB/event    2.55       200   xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJets (<!!!Interface missing!!!>) [*Unknown*]
+      2878.26 kB        438.96 kB     2.19 kB/event    6.56       200   Muon::MuonSimDataCollection_p2_TGC_SDO (Muon::MuonSimDataCollection_p2) [Muon]
+      1222.88 kB        467.11 kB     2.34 kB/event    2.62       200   TileL2Container_p2_TileL2Cnt (TileL2Container_p2) [*Unknown*]
+      4421.41 kB        776.49 kB     3.88 kB/event    5.69       200   RpcPadContainer_p2_RPCPAD (RpcPadContainer_p2) [*Unknown*]
+     13520.32 kB        857.39 kB     4.29 kB/event   15.77       200   TileDigitsContainer_p3_MuRcvDigitsCnt (TileDigitsContainer_p3) [Calo]
+     28520.63 kB       1431.13 kB     7.16 kB/event   19.93       200   TileRawChannelContainer_p1_MuRcvRawChCnt (TileRawChannelContainer_p1) [*Unknown*]
+     17511.63 kB       2444.26 kB    12.22 kB/event    7.16       200   xAOD::EventAuxInfo_v3_EventInfo (<!!!Interface missing!!!>) [*Unknown*]
+      9633.80 kB       2942.23 kB    14.71 kB/event    3.27       200   Muon::STGC_RawDataContainer_p3_sTGCRDO (Muon::STGC_RawDataContainer_p3) [Muon]
+     21652.71 kB       3758.95 kB    18.79 kB/event    5.76       200   InDetRawDataContainer_p2_PLR_RDOs (InDetRawDataContainer_p2) [InDet]
+    253058.08 kB       4013.93 kB    20.07 kB/event   63.04       200   xAOD::EventInfoAuxContainer_v1_PileUpEventInfo (<!!!Interface missing!!!>) [*Unknown*]
+     47812.03 kB       4323.96 kB    21.62 kB/event   11.06       200   InDetSimDataCollection_p3_PLR_SDO_Map (InDetSimDataCollection_p3) [InDet]
+     14993.76 kB       4615.22 kB    23.08 kB/event    3.25       200   Muon::MM_RawDataContainer_p3_MMRDO (Muon::MM_RawDataContainer_p3) [Muon]
+     68331.96 kB       4639.17 kB    23.20 kB/event   14.73       200   Muon::MuonSimDataCollection_p2_sTGC_SDO (Muon::MuonSimDataCollection_p2) [Muon]
+     15282.45 kB       4819.68 kB    24.10 kB/event    3.17       200   MdtCsmContainer_p1_MDTCSM (MdtCsmContainer_p1) [*Unknown*]
+     19122.73 kB       5388.40 kB    26.94 kB/event    3.55       200   Muon::MuonSimDataCollection_p2_MM_SDO (Muon::MuonSimDataCollection_p2) [Muon]
+     32920.21 kB       7520.28 kB    37.60 kB/event    4.38       200   TileDigitsContainer_p3_TileDigitsFlt (TileDigitsContainer_p3) [Calo]
+     24073.79 kB       9021.53 kB    45.11 kB/event    2.67       200   LArTTL1Container_LArTTL1HAD (LArTTL1Container) [Calo]
+     14417.08 kB      10880.09 kB    54.40 kB/event    1.33       200   TileTTL1Container_p1_TileTTL1Cnt (TileTTL1Container_p1) [*Unknown*]
+     51823.69 kB      19413.41 kB    97.07 kB/event    2.67       200   LArTTL1Container_LArTTL1EM (LArTTL1Container) [Calo]
+    136701.77 kB      19643.07 kB    98.22 kB/event    6.96       200   InDetSimDataCollection_p3_HGTD_SDO_Map (InDetSimDataCollection_p3) [InDet]
+     72234.29 kB      19870.57 kB    99.35 kB/event    3.64       200   Muon::MuonSimDataCollection_p2_MDT_SDO (Muon::MuonSimDataCollection_p2) [Muon]
+     61505.72 kB      29945.11 kB   149.73 kB/event    2.05       200   TileRawChannelContainer_p1_TileRawChannelCnt (TileRawChannelContainer_p1) [*Unknown*]
+    314632.70 kB      68272.28 kB   341.36 kB/event    4.61       200   HGTD_RDO_Container_p1_HGTD_RDOs (HGTD_RDO_Container_p1) [*Unknown*]
+    378190.77 kB     116206.53 kB   581.03 kB/event    3.25       200   SCT_RawDataContainer_p4_ITkStripRDOs (SCT_RawDataContainer_p4) [InDet]
+    570229.22 kB     125159.72 kB   625.80 kB/event    4.56       200   LArRawChannelContainer_p4_LArRawChannels (LArRawChannelContainer_p4) [Calo]
+   3000473.95 kB     333655.59 kB  1668.28 kB/event    8.99       200   InDetSimDataCollection_p3_ITkStripSDO_Map (InDetSimDataCollection_p3) [InDet]
+   1699171.26 kB     385755.06 kB  1928.78 kB/event    4.40       200   InDetRawDataContainer_p2_ITkPixelRDOs (InDetRawDataContainer_p2) [InDet]
+   1637102.31 kB     403456.71 kB  2017.28 kB/event    4.06       200   McEventCollection_p6_TruthEvent (McEventCollection_p6) [*Unknown*]
+  15519160.87 kB    1311354.11 kB  6556.77 kB/event   11.83       200   InDetSimDataCollection_p3_ITkPixelSDO_Map (InDetSimDataCollection_p3) [InDet]
+------------------------------------------------------------------------------------------------------------------------
+  24040755.21 kB    2903392.60 kB  14516.96 kB/event                     Total
+========================================================================================================================
+
+================================================================================
+         Categorized data
+================================================================================
+     Disk Size         Fraction    Category Name
+--------------------------------------------------------------------------------
+     191.535 kb        0.013       Muon
+     809.862 kb        0.056       Calo
+    2642.080 kb        0.182       *Unknown*
+   10873.486 kb        0.749       InDet
+   14516.963 kb        1.000       Total
+
+================================================================================
+CSV for categories disk size/evt and fraction:
+Total,InDet,*Unknown*,Calo,Muon
+14516.963,10873.486,2642.080,809.862,191.535
+1.000,0.749,0.182,0.056,0.013
+================================================================================
+
