@@ -1,0 +1,1047 @@
+******************************************************************************
+*Tree    :CollectionTree: CollectionTree                                         *
+*Entries :      200 : Total =     24618076573 bytes  File  Size = 2973127746 *
+*        :          : Tree compression factor =   8.28                       *
+******************************************************************************
+*Br    0 :xAOD::EventAuxInfo_v3_EventInfoAux. : xAOD::EventAuxInfo_v3        *
+*Entries :      200 : Total  Size=      44829 bytes  File Size  =       7148 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   6.16     *
+*............................................................................*
+*Br    1 :xAOD::TruthParticleAuxContainer_v1_TruthPileupParticlesAux. : xAOD:*
+*         | :TruthParticleAuxContainer_v1                                    *
+*Entries :      200 : Total  Size=      49997 bytes  File Size  =      13432 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.65     *
+*............................................................................*
+*Br    2 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAux. : xAOD:          *
+*         | :AuxContainerBase                                                *
+*Entries :      200 : Total  Size=      14365 bytes  File Size  =       5340 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.52     *
+*............................................................................*
+*Br    3 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAux. : xAOD:          *
+*         | :AuxContainerBase                                                *
+*Entries :      200 : Total  Size=      14365 bytes  File Size  =       5340 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.52     *
+*............................................................................*
+*Br    4 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAux. : xAOD:       *
+*         | :AuxContainerBase                                                *
+*Entries :      200 : Total  Size=      14437 bytes  File Size  =       5400 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.51     *
+*............................................................................*
+*Br    5 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAux. : xAOD:       *
+*         | :AuxContainerBase                                                *
+*Entries :      200 : Total  Size=      14437 bytes  File Size  =       5400 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.51     *
+*............................................................................*
+*Br    6 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAux. : xAOD:         *
+*         | :EventInfoAuxContainer_v1                                        *
+*Entries :      200 : Total  Size=  160728399 bytes  File Size  =    3034032 *
+*Baskets :       98 : Basket Size=    2146304 bytes  Compression=  52.97     *
+*............................................................................*
+*Br    7 :InDetRawDataContainer_p2_ITkPixelRDOs : InDetRawDataContainer_p2   *
+*Entries :      200 : Total  Size= 1739955787 bytes  File Size  =  395013181 *
+*Baskets :      199 : Basket Size=   10738669 bytes  Compression=   4.40     *
+*............................................................................*
+*Br    8 :InDetRawDataContainer_p2_PLR_RDOs : InDetRawDataContainer_p2       *
+*Entries :      200 : Total  Size=   22175113 bytes  File Size  =    3849168 *
+*Baskets :      116 : Basket Size=     257024 bytes  Compression=   5.76     *
+*............................................................................*
+*Br    9 :SCT_RawDataContainer_p4_ITkStripRDOs : SCT_RawDataContainer_p4     *
+*Entries :      200 : Total  Size=  387269924 bytes  File Size  =  118995486 *
+*Baskets :      107 : Basket Size=    4614656 bytes  Compression=   3.25     *
+*............................................................................*
+*Br   10 :InDetSimDataCollection_p3_HGTD_SDO_Map : InDetSimDataCollection_p3 *
+*Entries :      200 : Total  Size=  139985372 bytes  File Size  =   20114508 *
+*Baskets :      116 : Basket Size=    1613824 bytes  Compression=   6.96     *
+*............................................................................*
+*Br   11 :InDetSimDataCollection_p3_ITkPixelSDO_Map :                        *
+*         | InDetSimDataCollection_p3                                        *
+*Entries :200 : Total  Size=15891625181 bytes  File Size  = 1342826604 *
+*Baskets :      200 : Basket Size=   10738669 bytes  Compression=  11.83     *
+*............................................................................*
+*Br   12 :InDetSimDataCollection_p3_ITkStripSDO_Map :                        *
+*         | InDetSimDataCollection_p3                                        *
+*Entries :200 : Total  Size= 3072489776 bytes  File Size  = 341663321 *
+*Baskets :      200 : Basket Size=   10738669 bytes  Compression=   8.99     *
+*............................................................................*
+*Br   13 :InDetSimDataCollection_p3_PLR_SDO_Map : InDetSimDataCollection_p3  *
+*Entries :      200 : Total  Size=   48962260 bytes  File Size  =    4427733 *
+*Baskets :      115 : Basket Size=     564224 bytes  Compression=  11.06     *
+*............................................................................*
+*Br   14 :LArRawChannelContainer_p4_LArRawChannels :                         *
+*         | LArRawChannelContainer_p4                                        *
+*Entries :      200 : Total  Size=  583917274 bytes  File Size  =  128163550 *
+*Baskets :      105 : Basket Size=    7251456 bytes  Compression=   4.56     *
+*............................................................................*
+*Br   15 :LArTTL1Container_LArTTL1EM : LArTTL1Container                      *
+*Entries :      200 : Total  Size=   53069948 bytes  File Size  =   19879328 *
+*Baskets :      105 : Basket Size=     659456 bytes  Compression=   2.67     *
+*............................................................................*
+*Br   16 :LArTTL1Container_LArTTL1HAD : LArTTL1Container                     *
+*Entries :      200 : Total  Size=   24654057 bytes  File Size  =    9238049 *
+*Baskets :      105 : Basket Size=     306688 bytes  Compression=   2.67     *
+*............................................................................*
+*Br   17 :TileDigitsContainer_p3_MuRcvDigitsCnt : TileDigitsContainer_p3     *
+*Entries :      200 : Total  Size=   13847347 bytes  File Size  =     877967 *
+*Baskets :      105 : Basket Size=     172544 bytes  Compression=  15.77     *
+*............................................................................*
+*Br   18 :TileDigitsContainer_p3_TileDigitsFlt : TileDigitsContainer_p3      *
+*Entries :      200 : Total  Size=   33712830 bytes  File Size  =    7700770 *
+*Baskets :      105 : Basket Size=     414720 bytes  Compression=   4.38     *
+*............................................................................*
+*Br   19 :TileRawChannelContainer_p1_MuRcvRawChCnt :                         *
+*         | TileRawChannelContainer_p1                                       *
+*Entries :      200 : Total  Size=   29207674 bytes  File Size  =    1465482 *
+*Baskets :      105 : Basket Size=     363008 bytes  Compression=  19.93     *
+*............................................................................*
+*Br   20 :TileRawChannelContainer_p1_TileRawChannelCnt :                     *
+*         | TileRawChannelContainer_p1                                       *
+*Entries :      200 : Total  Size=   62984426 bytes  File Size  =   30663790 *
+*Baskets :      105 : Basket Size=     782336 bytes  Compression=   2.05     *
+*............................................................................*
+*Br   21 :TileTTL1Container_p1_TileTTL1Cnt : TileTTL1Container_p1            *
+*Entries :      200 : Total  Size=   14765602 bytes  File Size  =   11141214 *
+*Baskets :      105 : Basket Size=     183808 bytes  Compression=   1.33     *
+*............................................................................*
+*Br   22 :TileL2Container_p2_TileL2Cnt : TileL2Container_p2                  *
+*Entries :      200 : Total  Size=    1254191 bytes  File Size  =     478324 *
+*Baskets :       78 : Basket Size=      21477 bytes  Compression=   2.62     *
+*............................................................................*
+*Br   23 :TileMuonReceiverContainer_p1_TileMuRcvCnt :                        *
+*         | TileMuonReceiverContainer_p1                                     *
+*Entries :      200 : Total  Size=     150837 bytes  File Size  =      77500 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.94     *
+*............................................................................*
+*Br   24 :TgcRdoContainer_p4_TGCRDO : TgcRdoContainer_p4                     *
+*Entries :      200 : Total  Size=    4526061 bytes  File Size  =     220130 *
+*Baskets :      118 : Basket Size=      51200 bytes  Compression=  20.55     *
+*............................................................................*
+*Br   25 :MdtCsmContainer_p1_MDTCSM : MdtCsmContainer_p1                     *
+*Entries :      200 : Total  Size=   15651621 bytes  File Size  =    4935348 *
+*Baskets :      100 : Basket Size=     203776 bytes  Compression=   3.17     *
+*............................................................................*
+*Br   26 :RpcPadContainer_p2_RPCPAD : RpcPadContainer_p2                     *
+*Entries :      200 : Total  Size=    4529875 bytes  File Size  =     795130 *
+*Baskets :       98 : Basket Size=      61440 bytes  Compression=   5.69     *
+*............................................................................*
+*Br   27 :McEventCollection_p6_TruthEvent : McEventCollection_p6             *
+*Entries :      200 : Total  Size= 1676397143 bytes  File Size  =  413139670 *
+*Baskets :      198 : Basket Size=   10738669 bytes  Compression=   4.06     *
+*............................................................................*
+*Br   28 :Muon::MuonSimDataCollection_p2_MDT_SDO : Muon:                     *
+*         | :MuonSimDataCollection_p2                                        *
+*Entries :      200 : Total  Size=   73970395 bytes  File Size  =   20347468 *
+*Baskets :      102 : Basket Size=     962560 bytes  Compression=   3.64     *
+*............................................................................*
+*Br   29 :Muon::MuonSimDataCollection_p2_MM_SDO : Muon:                      *
+*         | :MuonSimDataCollection_p2                                        *
+*Entries :      200 : Total  Size=   19584276 bytes  File Size  =    5517724 *
+*Baskets :      108 : Basket Size=     233472 bytes  Compression=   3.55     *
+*............................................................................*
+*Br   30 :Muon::MuonSimDataCollection_p2_RPC_SDO : Muon:                     *
+*         | :MuonSimDataCollection_p2                                        *
+*Entries :      200 : Total  Size=    1951325 bytes  File Size  =     422280 *
+*Baskets :       86 : Basket Size=      27648 bytes  Compression=   4.62     *
+*............................................................................*
+*Br   31 :Muon::MuonSimDataCollection_p2_TGC_SDO : Muon:                     *
+*         | :MuonSimDataCollection_p2                                        *
+*Entries :      200 : Total  Size=    2950057 bytes  File Size  =     449496 *
+*Baskets :      114 : Basket Size=      33280 bytes  Compression=   6.56     *
+*............................................................................*
+*Br   32 :Muon::MuonSimDataCollection_p2_sTGC_SDO : Muon:                    *
+*         | :MuonSimDataCollection_p2                                        *
+*Entries :      200 : Total  Size=   69974495 bytes  File Size  =    4750510 *
+*Baskets :      106 : Basket Size=     878080 bytes  Compression=  14.73     *
+*............................................................................*
+*Br   33 :xAOD::EventInfo_v1_EventInfo : xAOD::EventInfo_v1                  *
+*Entries :      200 : Total  Size=       7861 bytes  File Size  =       4680 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.51     *
+*............................................................................*
+*Br   34 :Muon::MM_RawDataContainer_p3_MMRDO : Muon::MM_RawDataContainer_p3  *
+*Entries :      200 : Total  Size=   15356212 bytes  File Size  =    4725984 *
+*Baskets :      109 : Basket Size=     184320 bytes  Compression=   3.25     *
+*............................................................................*
+*Br   35 :Muon::STGC_RawDataContainer_p3_sTGCRDO : Muon:                     *
+*         | :STGC_RawDataContainer_p3                                        *
+*Entries :      200 : Total  Size=    9867594 bytes  File Size  =    3012848 *
+*Baskets :      107 : Basket Size=     122880 bytes  Compression=   3.27     *
+*............................................................................*
+*Br   36 :HGTD_RDO_Container_p1_HGTD_RDOs : HGTD_RDO_Container_p1            *
+*Entries :      200 : Total  Size=  322186575 bytes  File Size  =   69910810 *
+*Baskets :      114 : Basket Size=    3717632 bytes  Compression=   4.61     *
+*............................................................................*
+*Br   37 :TrackRecordCollection_p2_MuonEntryLayer : TrackRecordCollection_p2 *
+*Entries :      200 : Total  Size=      77896 bytes  File Size  =      50876 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.51     *
+*............................................................................*
+*Br   38 :DataVector<xAOD::TruthParticle_v1>_TruthPileupParticles :          *
+*         | DataVector<xAOD::TruthParticle_v1>                               *
+*Entries :      200 : Total  Size=       7709 bytes  File Size  =       5256 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.29     *
+*............................................................................*
+*Br   39 :DataVector<xAOD::Jet_v1>_InTimeAntiKt4TruthJets : DataVector<xAOD: *
+*         | :Jet_v1>                                                         *
+*Entries :      200 : Total  Size=       7517 bytes  File Size  =       5216 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.27     *
+*............................................................................*
+*Br   40 :DataVector<xAOD::Jet_v1>_InTimeAntiKt6TruthJets : DataVector<xAOD: *
+*         | :Jet_v1>                                                         *
+*Entries :      200 : Total  Size=       7517 bytes  File Size  =       5216 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.27     *
+*............................................................................*
+*Br   41 :DataVector<xAOD::Jet_v1>_OutOfTimeAntiKt4TruthJets :               *
+*         | DataVector<xAOD::Jet_v1>                                         *
+*Entries :      200 : Total  Size=       7589 bytes  File Size  =       5272 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.27     *
+*............................................................................*
+*Br   42 :DataVector<xAOD::Jet_v1>_OutOfTimeAntiKt6TruthJets :               *
+*         | DataVector<xAOD::Jet_v1>                                         *
+*Entries :      200 : Total  Size=       7589 bytes  File Size  =       5272 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.27     *
+*............................................................................*
+*Br   43 :DataVector<xAOD::EventInfo_v1>_PileUpEventInfo : DataVector<xAOD:  *
+*         | :EventInfo_v1>                                                   *
+*Entries :      200 : Total  Size=       7493 bytes  File Size  =       5428 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.22     *
+*............................................................................*
+*Br   44 :index_ref : index_ref/L                                            *
+*Entries :      200 : Total  Size=       4049 bytes  File Size  =       3320 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   45 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.pt :           *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23125 bytes  File Size  =      21360 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.04     *
+*............................................................................*
+*Br   46 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.eta :          *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23149 bytes  File Size  =      21936 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.01     *
+*............................................................................*
+*Br   47 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.phi :          *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23149 bytes  File Size  =      21916 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.01     *
+*............................................................................*
+*Br   48 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.m :            *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23101 bytes  File Size  =      21546 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.03     *
+*............................................................................*
+*Br   49 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.JetConstitScaleMomentum_pt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23701 bytes  File Size  =      21852 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.04     *
+*............................................................................*
+*Br   50 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.JetConstitScaleMomentum_eta : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23725 bytes  File Size  =      22412 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.01     *
+*............................................................................*
+*Br   51 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.JetConstitScaleMomentum_phi : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23725 bytes  File Size  =      22396 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.01     *
+*............................................................................*
+*Br   52 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.JetConstitScaleMomentum_m : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23677 bytes  File Size  =      22019 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.03     *
+*............................................................................*
+*Br   53 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.InputType :    *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23293 bytes  File Size  =       6416 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.49     *
+*............................................................................*
+*Br   54 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.AlgorithmType : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23389 bytes  File Size  =       6500 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.45     *
+*............................................................................*
+*Br   55 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.SizeParameter : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23389 bytes  File Size  =       6432 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.49     *
+*............................................................................*
+*Br   56 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.pileupEventNumber : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23485 bytes  File Size  =      10512 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.14     *
+*............................................................................*
+*Br   57 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.ConeTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23461 bytes  File Size  =       6592 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.41     *
+*............................................................................*
+*Br   58 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.GhostBHadronsFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23629 bytes  File Size  =       6708 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.38     *
+*............................................................................*
+*Br   59 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.GhostBHadronsFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23557 bytes  File Size  =       6696 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.37     *
+*............................................................................*
+*Br   60 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.GhostCHadronsFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23629 bytes  File Size  =       6728 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.37     *
+*............................................................................*
+*Br   61 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.GhostCHadronsFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23557 bytes  File Size  =       6752 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.34     *
+*............................................................................*
+*Br   62 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.GhostPartonsCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23485 bytes  File Size  =       6872 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.28     *
+*............................................................................*
+*Br   63 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.GhostPartonsPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23413 bytes  File Size  =       7472 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.01     *
+*............................................................................*
+*Br   64 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.GhostTausFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23533 bytes  File Size  =       6620 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.41     *
+*............................................................................*
+*Br   65 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.GhostTausFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23461 bytes  File Size  =       6560 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.43     *
+*............................................................................*
+*Br   66 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.HadronConeExclExtendedTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23893 bytes  File Size  =       6956 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.29     *
+*............................................................................*
+*Br   67 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.HadronConeExclTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23701 bytes  File Size  =       6792 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.34     *
+*............................................................................*
+*Br   68 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.HadronConeExclTruthLabelLxy : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23725 bytes  File Size  =       6828 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.33     *
+*............................................................................*
+*Br   69 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.HadronConeExclTruthLabelPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23701 bytes  File Size  =       6812 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.33     *
+*............................................................................*
+*Br   70 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.PartonTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23509 bytes  File Size  =       6776 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.33     *
+*............................................................................*
+*Br   71 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.Timing :       *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23221 bytes  File Size  =       6360 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.51     *
+*............................................................................*
+*Br   72 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.TruthLabelDeltaR_B : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23509 bytes  File Size  =       6672 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.38     *
+*............................................................................*
+*Br   73 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.TruthLabelDeltaR_C : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23509 bytes  File Size  =       6832 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.30     *
+*............................................................................*
+*Br   74 :xAOD::AuxContainerBase_InTimeAntiKt4TruthJetsAuxDyn.TruthLabelDeltaR_T : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23509 bytes  File Size  =       6524 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.45     *
+*............................................................................*
+*Br   75 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.pt :           *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23125 bytes  File Size  =      21360 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.04     *
+*............................................................................*
+*Br   76 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.eta :          *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23149 bytes  File Size  =      21936 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.01     *
+*............................................................................*
+*Br   77 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.phi :          *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23149 bytes  File Size  =      21916 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.01     *
+*............................................................................*
+*Br   78 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.m :            *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23101 bytes  File Size  =      21546 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.03     *
+*............................................................................*
+*Br   79 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.JetConstitScaleMomentum_pt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23701 bytes  File Size  =      21852 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.04     *
+*............................................................................*
+*Br   80 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.JetConstitScaleMomentum_eta : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23725 bytes  File Size  =      22412 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.01     *
+*............................................................................*
+*Br   81 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.JetConstitScaleMomentum_phi : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23725 bytes  File Size  =      22396 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.01     *
+*............................................................................*
+*Br   82 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.JetConstitScaleMomentum_m : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23677 bytes  File Size  =      22019 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.03     *
+*............................................................................*
+*Br   83 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.InputType :    *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23293 bytes  File Size  =       6416 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.49     *
+*............................................................................*
+*Br   84 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.AlgorithmType : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23389 bytes  File Size  =       6500 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.45     *
+*............................................................................*
+*Br   85 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.SizeParameter : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23389 bytes  File Size  =       6432 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.49     *
+*............................................................................*
+*Br   86 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.pileupEventNumber : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23485 bytes  File Size  =      10512 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.14     *
+*............................................................................*
+*Br   87 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.ConeTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23461 bytes  File Size  =       6592 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.41     *
+*............................................................................*
+*Br   88 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.GhostBHadronsFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23629 bytes  File Size  =       6708 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.38     *
+*............................................................................*
+*Br   89 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.GhostBHadronsFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23557 bytes  File Size  =       6696 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.37     *
+*............................................................................*
+*Br   90 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.GhostCHadronsFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23629 bytes  File Size  =       6728 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.37     *
+*............................................................................*
+*Br   91 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.GhostCHadronsFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23557 bytes  File Size  =       6752 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.34     *
+*............................................................................*
+*Br   92 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.GhostPartonsCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23485 bytes  File Size  =       6872 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.28     *
+*............................................................................*
+*Br   93 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.GhostPartonsPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23413 bytes  File Size  =       7472 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.01     *
+*............................................................................*
+*Br   94 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.GhostTausFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23533 bytes  File Size  =       6620 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.41     *
+*............................................................................*
+*Br   95 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.GhostTausFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23461 bytes  File Size  =       6560 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.43     *
+*............................................................................*
+*Br   96 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.HadronConeExclExtendedTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23893 bytes  File Size  =       6956 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.29     *
+*............................................................................*
+*Br   97 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.HadronConeExclTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23701 bytes  File Size  =       6792 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.34     *
+*............................................................................*
+*Br   98 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.HadronConeExclTruthLabelLxy : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23725 bytes  File Size  =       6828 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.33     *
+*............................................................................*
+*Br   99 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.HadronConeExclTruthLabelPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23701 bytes  File Size  =       6812 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.33     *
+*............................................................................*
+*Br  100 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.PartonTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      23509 bytes  File Size  =       6776 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.33     *
+*............................................................................*
+*Br  101 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.Timing :       *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23221 bytes  File Size  =       6360 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.51     *
+*............................................................................*
+*Br  102 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.TruthLabelDeltaR_B : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23509 bytes  File Size  =       6672 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.38     *
+*............................................................................*
+*Br  103 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.TruthLabelDeltaR_C : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23509 bytes  File Size  =       6832 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.30     *
+*............................................................................*
+*Br  104 :xAOD::AuxContainerBase_InTimeAntiKt6TruthJetsAuxDyn.TruthLabelDeltaR_T : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      23509 bytes  File Size  =       6524 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.45     *
+*............................................................................*
+*Br  105 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.pt :        *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36465 bytes  File Size  =      29844 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.19     *
+*............................................................................*
+*Br  106 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.eta :       *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36489 bytes  File Size  =      31112 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.14     *
+*............................................................................*
+*Br  107 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.phi :       *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36489 bytes  File Size  =      30988 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.15     *
+*............................................................................*
+*Br  108 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.m :         *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36441 bytes  File Size  =      30116 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.18     *
+*............................................................................*
+*Br  109 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.JetConstitScaleMomentum_pt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37041 bytes  File Size  =      30320 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.19     *
+*............................................................................*
+*Br  110 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.JetConstitScaleMomentum_eta : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37065 bytes  File Size  =      31592 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.14     *
+*............................................................................*
+*Br  111 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.JetConstitScaleMomentum_phi : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37065 bytes  File Size  =      31468 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.15     *
+*............................................................................*
+*Br  112 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.JetConstitScaleMomentum_m : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37017 bytes  File Size  =      30596 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.18     *
+*............................................................................*
+*Br  113 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.InputType : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36633 bytes  File Size  =       6580 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.42     *
+*............................................................................*
+*Br  114 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.AlgorithmType : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36729 bytes  File Size  =       6660 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.37     *
+*............................................................................*
+*Br  115 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.SizeParameter : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36729 bytes  File Size  =       6592 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.43     *
+*............................................................................*
+*Br  116 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.pileupEventNumber : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36825 bytes  File Size  =      15696 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.28     *
+*............................................................................*
+*Br  117 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.ConeTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36801 bytes  File Size  =       6932 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.17     *
+*............................................................................*
+*Br  118 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.GhostBHadronsFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36969 bytes  File Size  =       6908 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.21     *
+*............................................................................*
+*Br  119 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.GhostBHadronsFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36897 bytes  File Size  =       6996 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.13     *
+*............................................................................*
+*Br  120 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.GhostCHadronsFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36969 bytes  File Size  =       7044 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.11     *
+*............................................................................*
+*Br  121 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.GhostCHadronsFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36897 bytes  File Size  =       7372 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.87     *
+*............................................................................*
+*Br  122 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.GhostPartonsCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36825 bytes  File Size  =       9036 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.97     *
+*............................................................................*
+*Br  123 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.GhostPartonsPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36753 bytes  File Size  =      12436 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.88     *
+*............................................................................*
+*Br  124 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.GhostTausFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36873 bytes  File Size  =       6736 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.33     *
+*............................................................................*
+*Br  125 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.GhostTausFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36801 bytes  File Size  =       6688 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.36     *
+*............................................................................*
+*Br  126 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.HadronConeExclExtendedTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      37233 bytes  File Size  =       7272 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.98     *
+*............................................................................*
+*Br  127 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.HadronConeExclTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      37041 bytes  File Size  =       7116 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.06     *
+*............................................................................*
+*Br  128 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.HadronConeExclTruthLabelLxy : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37065 bytes  File Size  =       7536 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.78     *
+*............................................................................*
+*Br  129 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.HadronConeExclTruthLabelPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37041 bytes  File Size  =       7496 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.81     *
+*............................................................................*
+*Br  130 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.PartonTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36849 bytes  File Size  =       8628 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.16     *
+*............................................................................*
+*Br  131 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.Timing :    *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36561 bytes  File Size  =       8592 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.15     *
+*............................................................................*
+*Br  132 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.TruthLabelDeltaR_B : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36849 bytes  File Size  =       7512 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.77     *
+*............................................................................*
+*Br  133 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.TruthLabelDeltaR_C : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36849 bytes  File Size  =       8520 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.21     *
+*............................................................................*
+*Br  134 :xAOD::AuxContainerBase_OutOfTimeAntiKt4TruthJetsAuxDyn.TruthLabelDeltaR_T : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36849 bytes  File Size  =       6716 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.34     *
+*............................................................................*
+*Br  135 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.pt :        *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36465 bytes  File Size  =      29844 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.19     *
+*............................................................................*
+*Br  136 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.eta :       *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36489 bytes  File Size  =      31112 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.14     *
+*............................................................................*
+*Br  137 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.phi :       *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36489 bytes  File Size  =      30988 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.15     *
+*............................................................................*
+*Br  138 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.m :         *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36441 bytes  File Size  =      30116 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.18     *
+*............................................................................*
+*Br  139 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.JetConstitScaleMomentum_pt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37041 bytes  File Size  =      30320 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.19     *
+*............................................................................*
+*Br  140 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.JetConstitScaleMomentum_eta : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37065 bytes  File Size  =      31592 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.14     *
+*............................................................................*
+*Br  141 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.JetConstitScaleMomentum_phi : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37065 bytes  File Size  =      31468 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.15     *
+*............................................................................*
+*Br  142 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.JetConstitScaleMomentum_m : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37017 bytes  File Size  =      30596 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.18     *
+*............................................................................*
+*Br  143 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.InputType : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36633 bytes  File Size  =       6580 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.42     *
+*............................................................................*
+*Br  144 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.AlgorithmType : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36729 bytes  File Size  =       6660 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.37     *
+*............................................................................*
+*Br  145 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.SizeParameter : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36729 bytes  File Size  =       6592 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.43     *
+*............................................................................*
+*Br  146 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.pileupEventNumber : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36825 bytes  File Size  =      15696 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.28     *
+*............................................................................*
+*Br  147 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.ConeTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36801 bytes  File Size  =       6932 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.17     *
+*............................................................................*
+*Br  148 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.GhostBHadronsFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36969 bytes  File Size  =       6908 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.21     *
+*............................................................................*
+*Br  149 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.GhostBHadronsFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36897 bytes  File Size  =       6996 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.13     *
+*............................................................................*
+*Br  150 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.GhostCHadronsFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36969 bytes  File Size  =       7044 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.11     *
+*............................................................................*
+*Br  151 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.GhostCHadronsFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36897 bytes  File Size  =       7372 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.87     *
+*............................................................................*
+*Br  152 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.GhostPartonsCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36825 bytes  File Size  =       9036 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   3.97     *
+*............................................................................*
+*Br  153 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.GhostPartonsPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36753 bytes  File Size  =      12436 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   2.88     *
+*............................................................................*
+*Br  154 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.GhostTausFinalCount : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36873 bytes  File Size  =       6736 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.33     *
+*............................................................................*
+*Br  155 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.GhostTausFinalPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36801 bytes  File Size  =       6688 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.36     *
+*............................................................................*
+*Br  156 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.HadronConeExclExtendedTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      37233 bytes  File Size  =       7272 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.98     *
+*............................................................................*
+*Br  157 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.HadronConeExclTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      37041 bytes  File Size  =       7116 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.06     *
+*............................................................................*
+*Br  158 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.HadronConeExclTruthLabelLxy : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37065 bytes  File Size  =       7536 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.78     *
+*............................................................................*
+*Br  159 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.HadronConeExclTruthLabelPt : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      37041 bytes  File Size  =       7496 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.81     *
+*............................................................................*
+*Br  160 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.PartonTruthLabelID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=      36849 bytes  File Size  =       8628 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.16     *
+*............................................................................*
+*Br  161 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.Timing :    *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36561 bytes  File Size  =       8592 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.15     *
+*............................................................................*
+*Br  162 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.TruthLabelDeltaR_B : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36849 bytes  File Size  =       7512 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.77     *
+*............................................................................*
+*Br  163 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.TruthLabelDeltaR_C : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36849 bytes  File Size  =       8520 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   4.21     *
+*............................................................................*
+*Br  164 :xAOD::AuxContainerBase_OutOfTimeAntiKt6TruthJetsAuxDyn.TruthLabelDeltaR_T : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=      36849 bytes  File Size  =       6716 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   5.34     *
+*............................................................................*
+*Br  165 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.streamTagRobs :              *
+*         | vector<set<unsigned int> >                                       *
+*Entries :      200 : Total  Size=       6413 bytes  File Size  =       4900 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.13     *
+*............................................................................*
+*Br  166 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.streamTagDets :              *
+*         | vector<set<unsigned int> >                                       *
+*Entries :      200 : Total  Size=       6413 bytes  File Size  =       4900 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.13     *
+*............................................................................*
+*Br  167 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.actualInteractionsPerCrossing : *
+*         | actualInteractionsPerCrossing/F                                  *
+*Entries :      200 : Total  Size=       4519 bytes  File Size  =       3680 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  168 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.averageInteractionsPerCrossing : *
+*         | averageInteractionsPerCrossing/F                                 *
+*Entries :      200 : Total  Size=       4543 bytes  File Size  =       3700 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  169 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.subEventTime : vector<short> *
+*Entries :      200 : Total  Size=    2537164 bytes  File Size  =      60800 *
+*Baskets :      169 : Basket Size=      21477 bytes  Compression=  41.67     *
+*............................................................................*
+*Br  170 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.subEventIndex :              *
+*         | vector<unsigned short>                                           *
+*Entries :      200 : Total  Size=    2537337 bytes  File Size  =    1616713 *
+*Baskets :      169 : Basket Size=      21477 bytes  Compression=   1.57     *
+*............................................................................*
+*Br  171 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.subEventLink :               *
+*         | vector<ElementLink<DataVector<xAOD::EventInfo_v1> > >            *
+*Entries :      200 : Total  Size=   10063264 bytes  File Size  =     582088 *
+*Baskets :      181 : Basket Size=      54085 bytes  Compression=  17.28     *
+*............................................................................*
+*Br  172 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.subEventType :               *
+*         | vector<unsigned short>                                           *
+*Entries :      200 : Total  Size=    2537164 bytes  File Size  =      55416 *
+*Baskets :      169 : Basket Size=      21477 bytes  Compression=  45.71     *
+*............................................................................*
+*Br  173 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamPosSigmaX :              *
+*         | beamPosSigmaX/F                                                  *
+*Entries :      200 : Total  Size=       4135 bytes  File Size  =       3360 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  174 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamPosSigmaXY :             *
+*         | beamPosSigmaXY/F                                                 *
+*Entries :      200 : Total  Size=       4159 bytes  File Size  =       3380 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  175 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamPosSigmaY :              *
+*         | beamPosSigmaY/F                                                  *
+*Entries :      200 : Total  Size=       4135 bytes  File Size  =       3360 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  176 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamPosSigmaZ :              *
+*         | beamPosSigmaZ/F                                                  *
+*Entries :      200 : Total  Size=       4135 bytes  File Size  =       3360 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  177 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamPosX : beamPosX/F        *
+*Entries :      200 : Total  Size=       4015 bytes  File Size  =       3260 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  178 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamPosY : beamPosY/F        *
+*Entries :      200 : Total  Size=       4015 bytes  File Size  =       3260 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  179 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamPosZ : beamPosZ/F        *
+*Entries :      200 : Total  Size=       4015 bytes  File Size  =       3260 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  180 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamStatus : beamStatus/i    *
+*Entries :      200 : Total  Size=       4063 bytes  File Size  =       3300 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  181 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamTiltXZ : beamTiltXZ/F    *
+*Entries :      200 : Total  Size=       4063 bytes  File Size  =       3300 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  182 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.beamTiltYZ : beamTiltYZ/F    *
+*Entries :      200 : Total  Size=       4063 bytes  File Size  =       3300 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  183 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.mcChannelNumber :            *
+*         | mcChannelNumber/i                                                *
+*Entries :      200 : Total  Size=       4183 bytes  File Size  =       3400 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  184 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.mcEventNumber :              *
+*         | mcEventNumber/l                                                  *
+*Entries :      200 : Total  Size=       4943 bytes  File Size  =       4160 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  185 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.mcEventWeights :             *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=     161794 bytes  File Size  =     114182 *
+*Baskets :       21 : Basket Size=      21477 bytes  Compression=   1.41     *
+*............................................................................*
+*Br  186 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.pileUpMixtureIDHighBits :    *
+*         | pileUpMixtureIDHighBits/l                                        *
+*Entries :      200 : Total  Size=       5183 bytes  File Size  =       4360 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  187 :xAOD::EventAuxInfo_v3_EventInfoAuxDyn.pileUpMixtureIDLowBits :     *
+*         | pileUpMixtureIDLowBits/l                                         *
+*Entries :      200 : Total  Size=       5159 bytes  File Size  =       4340 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.00     *
+*............................................................................*
+*Br  188 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.streamTagNames : *
+*         | vector<vector<string> >                                          *
+*Entries :      200 : Total  Size=    5049849 bytes  File Size  =      53837 *
+*Baskets :      181 : Basket Size=      27131 bytes  Compression=  93.72     *
+*............................................................................*
+*Br  189 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.streamTagTypes : *
+*         | vector<vector<string> >                                          *
+*Entries :      200 : Total  Size=    5049849 bytes  File Size  =      53837 *
+*Baskets :      181 : Basket Size=      27131 bytes  Compression=  93.72     *
+*............................................................................*
+*Br  190 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.streamTagObeysLumiblock : *
+*         | vector<vector<char> >                                            *
+*Entries :      200 : Total  Size=    5051514 bytes  File Size  =      55466 *
+*Baskets :      181 : Basket Size=      27140 bytes  Compression=  91.00     *
+*............................................................................*
+*Br  191 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.streamTagRobs : *
+*         | vector<vector<set<unsigned int> > >                              *
+*Entries :      200 : Total  Size=    5049664 bytes  File Size  =      53656 *
+*Baskets :      181 : Basket Size=      27130 bytes  Compression=  94.03     *
+*............................................................................*
+*Br  192 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.streamTagDets : *
+*         | vector<vector<set<unsigned int> > >                              *
+*Entries :      200 : Total  Size=    5049664 bytes  File Size  =      53656 *
+*Baskets :      181 : Basket Size=      27130 bytes  Compression=  94.03     *
+*............................................................................*
+*Br  193 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.actualInteractionsPerCrossing : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5052624 bytes  File Size  =      56552 *
+*Baskets :      181 : Basket Size=      27146 bytes  Compression=  89.27     *
+*............................................................................*
+*Br  194 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.averageInteractionsPerCrossing : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5052809 bytes  File Size  =      56733 *
+*Baskets :      181 : Basket Size=      27147 bytes  Compression=  88.99     *
+*............................................................................*
+*Br  195 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.statusElement : *
+*         | vector<unsigned int>                                             *
+*Entries :      200 : Total  Size=    5049664 bytes  File Size  =      53656 *
+*Baskets :      181 : Basket Size=      27130 bytes  Compression=  94.03     *
+*............................................................................*
+*Br  196 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.extendedLevel1ID : *
+*         | vector<unsigned int>                                             *
+*Entries :      200 : Total  Size=    5050219 bytes  File Size  =      54199 *
+*Baskets :      181 : Basket Size=      27133 bytes  Compression=  93.10     *
+*............................................................................*
+*Br  197 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.level1TriggerType : *
+*         | vector<unsigned short>                                           *
+*Entries :      200 : Total  Size=    2540624 bytes  File Size  =      48884 *
+*Baskets :      169 : Basket Size=      21477 bytes  Compression=  51.89     *
+*............................................................................*
+*Br  198 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamPosSigmaX : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5049664 bytes  File Size  =      54852 *
+*Baskets :      181 : Basket Size=      27130 bytes  Compression=  91.98     *
+*............................................................................*
+*Br  199 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamPosSigmaXY : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5049849 bytes  File Size  =      53837 *
+*Baskets :      181 : Basket Size=      27131 bytes  Compression=  93.72     *
+*............................................................................*
+*Br  200 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamPosSigmaY : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5049664 bytes  File Size  =      54852 *
+*Baskets :      181 : Basket Size=      27130 bytes  Compression=  91.98     *
+*............................................................................*
+*Br  201 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamPosSigmaZ : *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5049664 bytes  File Size  =      54628 *
+*Baskets :      181 : Basket Size=      27130 bytes  Compression=  92.36     *
+*............................................................................*
+*Br  202 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamPosX :    *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5048739 bytes  File Size  =      52751 *
+*Baskets :      181 : Basket Size=      27125 bytes  Compression=  95.63     *
+*............................................................................*
+*Br  203 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamPosY :    *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5048739 bytes  File Size  =      52751 *
+*Baskets :      181 : Basket Size=      27125 bytes  Compression=  95.63     *
+*............................................................................*
+*Br  204 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamPosZ :    *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5048739 bytes  File Size  =      52751 *
+*Baskets :      181 : Basket Size=      27125 bytes  Compression=  95.63     *
+*............................................................................*
+*Br  205 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamStatus :  *
+*         | vector<unsigned int>                                             *
+*Entries :      200 : Total  Size=    5049109 bytes  File Size  =      53113 *
+*Baskets :      181 : Basket Size=      27127 bytes  Compression=  94.99     *
+*............................................................................*
+*Br  206 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamTiltXZ :  *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5049109 bytes  File Size  =      53113 *
+*Baskets :      181 : Basket Size=      27127 bytes  Compression=  94.99     *
+*............................................................................*
+*Br  207 :xAOD::EventInfoAuxContainer_v1_PileUpEventInfoAuxDyn.beamTiltYZ :  *
+*         | vector<float>                                                    *
+*Entries :      200 : Total  Size=    5049109 bytes  File Size  =      53113 *
+*Baskets :      181 : Basket Size=      27127 bytes  Compression=  94.99     *
+*............................................................................*
+*Br  208 :xAOD::TruthParticleAuxContainer_v1_TruthPileupParticlesAuxDyn.Classification : *
+*         | vector<unsigned int>                                             *
+*Entries :      200 : Total  Size=       7929 bytes  File Size  =       5828 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.19     *
+*............................................................................*
+*Br  209 :xAOD::TruthParticleAuxContainer_v1_TruthPileupParticlesAuxDyn.classifierParticleOrigin : *
+*         | vector<unsigned int>                                             *
+*Entries :      200 : Total  Size=       8169 bytes  File Size  =       6144 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.16     *
+*............................................................................*
+*Br  210 :xAOD::TruthParticleAuxContainer_v1_TruthPileupParticlesAuxDyn.classifierParticleOutCome : *
+*         | vector<unsigned int>                                             *
+*Entries :      200 : Total  Size=       8193 bytes  File Size  =       6052 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.18     *
+*............................................................................*
+*Br  211 :xAOD::TruthParticleAuxContainer_v1_TruthPileupParticlesAuxDyn.classifierParticleType : *
+*         | vector<unsigned int>                                             *
+*Entries :      200 : Total  Size=       8121 bytes  File Size  =       6056 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.17     *
+*............................................................................*
+*Br  212 :xAOD::TruthParticleAuxContainer_v1_TruthPileupParticlesAuxDyn.parentHadronID : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=       7929 bytes  File Size  =       5784 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.20     *
+*............................................................................*
+*Br  213 :xAOD::TruthParticleAuxContainer_v1_TruthPileupParticlesAuxDyn.pileupEventNumber : *
+*         | vector<int>                                                      *
+*Entries :      200 : Total  Size=       8001 bytes  File Size  =       6244 *
+*Baskets :       20 : Basket Size=      21477 bytes  Compression=   1.12     *
+*............................................................................*
