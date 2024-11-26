@@ -1,0 +1,342 @@
+PyJobTransforms.<module> 2024-11-25 23:43:31,650 INFO logging set in /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101/Athena/25.0.23/InstallArea/x86_64-el9-gcc14-opt/bin/Reco_tf.py
+PyJobTransforms.main 2024-11-25 23:43:31,874 INFO This is /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101/Athena/25.0.23/InstallArea/x86_64-el9-gcc14-opt/bin/Reco_tf.py
+PyJobTransforms.transform.parseCmdLineArgs 2024-11-25 23:43:31,900 INFO Transform command line was: '/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101/Athena/25.0.23/InstallArea/x86_64-el9-gcc14-opt/bin/Reco_tf.py' '--CA' '--preInclude' 'InDetConfig.ConfigurationHelpers.OnlyTrackingPreInclude' '--inputRDOFile' '/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1' '--outputAODFile' 'AOD.test.root' '--steering' 'doRAWtoALL' '--postInclude' 'GeoModelConversion.GeoModelConversionConfig.GeoModelConversionAlgCfg' '--maxEvents' '1'
+PyJobTransforms.transform.execute 2024-11-25 23:43:31,902 INFO Resolving execution graph
+PyJobTransforms.trfGraph.__init__ 2024-11-25 23:43:31,902 INFO Transform graph input data: ['RDO']; output data ['AOD']
+PyJobTransforms.transform.execute 2024-11-25 23:43:31,923 INFO Starting to trace execution path
+PyJobTransforms.transform.execute 2024-11-25 23:43:31,924 INFO Execution path found with 1 step(s): RAWtoALL
+PyJobTransforms.transform.validateInFiles 2024-11-25 23:43:31,924 INFO Validating input files
+PyJobTransforms.trfValidation.performStandardFileValidation 2024-11-25 23:43:31,924 INFO Starting legacy (serial) file validation
+PyJobTransforms.trfValidation.performStandardFileValidation 2024-11-25 23:43:31,924 INFO Validating data type RDO...
+PyJobTransforms.trfValidation.performStandardFileValidation 2024-11-25 23:43:31,924 INFO Validating file /cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1...
+PyJobTransforms.trfValidation.performStandardFileValidation 2024-11-25 23:43:31,924 INFO /cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1: Testing event count...
+PyJobTransforms.trfArgClasses._readMetadata 2024-11-25 23:43:31,934 INFO Metadata generator called to obtain nentries for ('/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1',)
+Py:MetaReader        INFO Current mode used: lite
+Py:MetaReader        INFO Current filenames: ['/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1']
+Py:MetaReader        INFO MetaReader is called with the parameter "unique_tag_info_values" set to True. This is a workaround to remove all duplicate values from "/TagInfo" key
+PyJobTransforms.trfValidation.performStandardFileValidation 2024-11-25 23:43:36,477 INFO Event counting test passed (200 events).
+PyJobTransforms.trfValidation.performStandardFileValidation 2024-11-25 23:43:36,478 INFO /cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1: Checking if guid exists...
+PyJobTransforms.trfValidation.performStandardFileValidation 2024-11-25 23:43:36,478 INFO Guid is 2762FE2C-F9A4-0845-99EB-C7C30B28BFF6
+PyJobTransforms.trfValidation.performStandardFileValidation 2024-11-25 23:43:36,478 INFO Stopping legacy (serial) file validation
+PyJobTransforms.trfExe.preExecute 2024-11-25 23:43:36,478 INFO Asetup report: 	AtlasBaseDir=/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101
+	AtlasProject=Athena
+	AtlasVersion=25.0.23
+	TestArea=/data/jlai/athena-custom-acts/run
+	Athena_PLATFORM=x86_64-el9-gcc14-opt
+No readable patch area found
+PyJobTransforms.trfJobOptions.writeRunArgs 2024-11-25 23:43:36,479 INFO Writing runArgs to file "runargs.RAWtoALL.py"
+PyJobTransforms.trfJobOptions.writeRunArgs 2024-11-25 23:43:36,500 INFO Successfully wrote runargs file runargs.RAWtoALL.py
+PyJobTransforms.trfEnv.probeTcmallocSettings 2024-11-25 23:43:36,509 INFO Skipping inclusion of tcmalloc
+PyJobTransforms.trfExe._prepAthenaCommandLine 2024-11-25 23:43:36,509 INFO Setting athena preloadlibs for substep RAWtoALL to: $ATLASMKLLIBDIR_PRELOAD/libintlc.so.5:$ATLASMKLLIBDIR_PRELOAD/libimf.so
+PyJobTransforms.trfExe._prepAthenaCommandLine 2024-11-25 23:43:36,509 INFO ignoring "--drop-and-reload" for CA-based transforms, config cleaned up anyway
+PyJobTransforms.trfExe._prepAthenaCommandLine 2024-11-25 23:43:36,509 INFO Updated script arguments with topoptions: ['athena.py', '--preloadlib=$ATLASMKLLIBDIR_PRELOAD/libintlc.so.5:$ATLASMKLLIBDIR_PRELOAD/libimf.so', 'runargs.RAWtoALL.py']
+PyJobTransforms.trfExe.preExecute 2024-11-25 23:43:36,510 INFO Will execute script as ['athena.py', '--preloadlib=$ATLASMKLLIBDIR_PRELOAD/libintlc.so.5:$ATLASMKLLIBDIR_PRELOAD/libimf.so', 'runargs.RAWtoALL.py']
+PyJobTransforms.trfExe.preExecute 2024-11-25 23:43:36,510 INFO Interactive environment detected (stdio or stdout is a tty) - enabling command echoing to stdout
+PyJobTransforms.trfExe.preExecute 2024-11-25 23:43:36,520 INFO Now writing wrapper for substep executor RAWtoALL
+PyJobTransforms.trfExe._writeAthenaWrapper 2024-11-25 23:43:36,568 INFO Valgrind/VTune not engaged
+PyJobTransforms.trfExe.preExecute 2024-11-25 23:43:36,584 INFO Athena will be executed in a subshell via ['./runwrapper.RAWtoALL.sh']
+PyJobTransforms.trfExe.execute 2024-11-25 23:43:36,584 INFO Starting execution of RAWtoALL (['./runwrapper.RAWtoALL.sh'])
+RAWtoALL 23:43:36 Mon Nov 25 23:43:36 CST 2024
+RAWtoALL 23:43:36 Preloading tcmalloc_minimal.so
+RAWtoALL 23:43:36 Preloading libexcabort.so
+RAWtoALL 23:43:36 Preloading /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101/AthenaExternals/25.0.23/InstallArea/x86_64-el9-gcc14-opt/lib/libintlc.so.5:/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101/AthenaExternals/25.0.23/InstallArea/x86_64-el9-gcc14-opt/lib/libimf.so
+RAWtoALL 23:43:37 Py:RAWtoALL          INFO ****************** STARTING Reconstruction (RAWtoALL) *****************
+RAWtoALL 23:43:37 Py:RAWtoALL          INFO **** Transformation run arguments
+RAWtoALL 23:43:37 Py:RAWtoALL          INFO RunArguments:
+RAWtoALL 23:43:37    RDOFileIO = 'input'
+RAWtoALL 23:43:37    concurrentEvents = 0
+RAWtoALL 23:43:37    inputRDOFile = ['/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1']
+RAWtoALL 23:43:37    inputRDOFileNentries = 200
+RAWtoALL 23:43:37    inputRDOFileType = 'RDO'
+RAWtoALL 23:43:37    maxEvents = 1
+RAWtoALL 23:43:37    nprocs = 0
+RAWtoALL 23:43:37    outputAODFile = 'AOD.test.root'
+RAWtoALL 23:43:37    outputAODFileType = 'AOD'
+RAWtoALL 23:43:37    perfmon = 'fastmonmt'
+RAWtoALL 23:43:37    postInclude = ['GeoModelConversion.GeoModelConversionConfig.GeoModelConversionAlgCfg']
+RAWtoALL 23:43:37    preInclude = ['InDetConfig.ConfigurationHelpers.OnlyTrackingPreInclude']
+RAWtoALL 23:43:37    threads = 0
+RAWtoALL 23:43:37    totalExecutorSteps = 0
+RAWtoALL 23:43:37    trfSubstepName = 'RAWtoALL'
+RAWtoALL 23:43:37 Py:RAWtoALL          INFO **** executing ROOT6Setup
+RAWtoALL 23:43:37 Py:Athena            INFO executing ROOT6Setup
+RAWtoALL 23:43:37 Py:RAWtoALL          INFO **** Setting-up configuration flags
+RAWtoALL 23:43:39 Py:RAWtoALL          INFO ---------- Configured AOD output
+RAWtoALL 23:43:39 Py:AutoConfigFlags    INFO Obtaining metadata of auto-configuration by peeking into '/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1'
+RAWtoALL 23:43:39 Py:MetaReader        INFO Current mode used: lite
+RAWtoALL 23:43:39 Py:MetaReader        INFO Current filenames: ['/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1']
+RAWtoALL 23:43:41 Py:MetaReader        INFO MetaReader is called with the parameter "unique_tag_info_values" set to True. This is a workaround to remove all duplicate values from "/TagInfo" key
+RAWtoALL 23:43:42 Py:AutoConfigFlags    INFO Looking into the file in 'peeker' mode as the configuration requires more details: SimulatedDetectors
+RAWtoALL 23:43:42 Py:MetaReader        INFO Current mode used: peeker
+RAWtoALL 23:43:42 Py:MetaReader        INFO Current filenames: ['/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1']
+RAWtoALL 23:44:33 Py:MetaReader        INFO MetaReader is called with the parameter "unique_tag_info_values" set to True. This is a workaround to remove all duplicate values from "/TagInfo" key
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO               Initial       Meta.         Final
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO               Geo.   Enbl.  Sim.   Digi.  Geo.   Enbl.
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO       Bpipe : ON     n/a    n/a    n/a    ON     n/a
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         BCM : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO       Pixel : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         SCT : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         TRT : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO    BCMPrime : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         PLR : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO    ITkPixel : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO    ITkStrip : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO        HGTD : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         LAr : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO        Tile : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO        MBTS : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         CSC : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         MDT : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         RPC : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         TGC : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO        sTGC : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO          MM : ON     ON     ON     ON     ON     ON
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO       Lucid : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         ZDC : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO        ALFA : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO         AFP : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO   FwdRegion : --     --     --     --     --     --
+RAWtoALL 23:44:33 Py:DetectorConfigFlags    INFO      Cavern : --     n/a    n/a    n/a    --     n/a
+RAWtoALL 23:44:33 Py:TriggerConfigFlags.EDMVersion    INFO Could not determine EDM version from the input file. Return default EDMVersion=-1
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                          Enbl.
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                Trigger : --
+RAWtoALL 23:44:33 Py:RecoSteering      INFO     BeamSpotDecoration : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                   Calo : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO               Tracking : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO          HGTDExtension : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                   Muon : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO           CombinedMuon : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                 Egamma : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO              Isolation : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO          CaloExtension : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO   TrackCellAssociation : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                  PFlow : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                    Jet : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO               BTagging : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                    Tau : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO        GlobalFELinking : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                    Met : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO             CaloRinger : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                    AFP : --
+RAWtoALL 23:44:33 Py:RecoSteering      INFO                     HI : --
+RAWtoALL 23:44:33 Py:RecoSteering      INFO         PostProcessing : ON
+RAWtoALL 23:44:33 Py:RecoSteering      INFO           TrackOverlay : --
+RAWtoALL 23:44:34 Py:PerfMonMTSvcCfg    INFO Configuring PerfMonMTSvc with flags:
+RAWtoALL 23:44:34 Py:PerfMonMTSvcCfg    INFO   >> doFastMonMT True
+RAWtoALL 23:44:34 Py:PerfMonMTSvcCfg    INFO   >> doFullMonMT False
+RAWtoALL 23:44:34 Py:RecoSteering      INFO ---------- Configured POOL reading
+RAWtoALL 23:44:34 Py:RecoSteering      INFO ---------- Configured AODtoxAOD Truth Conversion
+RAWtoALL 23:44:34 Py:RecoSteering      INFO ---------- Configured Truth pileup jet writing
+RAWtoALL 23:44:34 Py:TriggerConfigFlags.EDMVersion    INFO Could not determine EDM version from the input file. Return default EDMVersion=-1
+RAWtoALL 23:44:35 
+RAWtoALL 23:44:35 ************************************************************************
+RAWtoALL 23:44:35 ******************** Tracking reconstruction Config ********************
+RAWtoALL 23:44:35                      Active Config is
+RAWtoALL 23:44:35 Tracking.ActiveConfig.Xi2max             : [9.0]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.Xi2maxNoAdd        : [25.0]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsAmbiguityResolution : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsCluster      : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsSeed         : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsSpacePoint   : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsToAthenaCluster : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsToAthenaResolvedTrack : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsToAthenaSeed : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsToAthenaSpacePoint : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsToAthenaTrack : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doActsTrack        : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doAmbiguityProcessorTrackFit : True
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doAthenaAmbiguityResolution : True
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doAthenaCluster    : True
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doAthenaSeed       : True
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doAthenaSpacePoint : True
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doAthenaToActsCluster : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doAthenaToActsSpacePoint : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doAthenaToActsTrack : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doAthenaTrack      : True
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doBremRecoverySi   : False [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doCaloSeededAmbiSi : False [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doCaloSeededBremSi : False [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doFPGASpacePoint   : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doFPGATrack        : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doGNNTrack         : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.doZBoundary        : True
+RAWtoALL 23:44:35 Tracking.ActiveConfig.etaBins            : [-1.0, 2.0, 2.6, 9999.0]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.extension          : ''
+RAWtoALL 23:44:35 Tracking.ActiveConfig.isSecondaryPass    : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxDoubleHoles     : [1]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxEMImpact        : [50.0]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxEta             : 4.0
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxHoles           : [2]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxPixelHoles      : [2]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxPrimaryImpact   : [2.0, 2.0, 10.0]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxPrimaryImpactSeed : 2.0
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxSctHoles        : [2]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxShared          : [2]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxZImpact         : [200.0]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxZImpactSeed     : 200.0
+RAWtoALL 23:44:35 Tracking.ActiveConfig.maxdImpactSSSSeeds : [20.0]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.minClusters        : [9, 8, 7] [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.minPT              : [900.0, 400.0, 400.0] [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.minPTBrem          : [1000.0] [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.minPTSeed          : 900.0 [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.minPixel           : [1]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.minSiNotShared     : [7, 6, 5] [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.nHolesGapMax       : [2]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.nHolesMax          : [2]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.nWeightedClustersMin : [6]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.radMax             : 1100.0
+RAWtoALL 23:44:35 Tracking.ActiveConfig.roadWidth          : 20.0
+RAWtoALL 23:44:35 Tracking.ActiveConfig.storeSeparateContainer : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.storeSiSPSeededTracks : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.storeTrackSeeds    : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.useITkPixel        : True [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.useITkPixelSeeding : True
+RAWtoALL 23:44:35 Tracking.ActiveConfig.useITkStrip        : True [function]
+RAWtoALL 23:44:35 Tracking.ActiveConfig.useITkStripSeeding : True
+RAWtoALL 23:44:35 Tracking.ActiveConfig.usePrdAssociationTool : False
+RAWtoALL 23:44:35 Tracking.ActiveConfig.useSeedFilter      : True
+RAWtoALL 23:44:35 Flag categories that are redirected by the cloneAndReplace
+RAWtoALL 23:44:35 Tracking.ActiveConfig          points to           Tracking.ITkMainPass
+RAWtoALL 23:44:35 Tracking.ITkMainPass           points to                        nothing
+RAWtoALL 23:44:35 ************************************************************************
+RAWtoALL 23:44:35 Requesting material map for tracking geometry from tag =  AtlasLayerMat_v22_ATLAS-P2-RUN4-01-01-00
+RAWtoALL 23:44:35 Requesting material map for tracking geometry from tag =  AtlasLayerMat_v22_ATLAS-P2-RUN4-01-01-00
+RAWtoALL 23:44:35 -------- POST PROCESSING --------
+RAWtoALL 23:44:35 - Running post-processing for extension:
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO Event Algorithm Sequences
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO Top sequence 0
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO \__ AthAlgSeq
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ITkPixelClusterization
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ITkStripClusterization
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ITkSiTrackerSpacePointFinder
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ITkPRD_MultiTruthMakerSi
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ITkSiSpTrackFinder
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ SiSPSeededTracksDetailedTruthMaker
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ SiSPSeededTracksTruthCollectionSelector
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ITkAmbiguityScore
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ITkAmbiguitySolver
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ResolvedTracksDetailedTruthMaker
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ResolvedTracksTruthCollectionSelector
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ITkTrackCollectionMerger
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ CombinedITkTracksDetailedTruthMaker
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ CombinedITkTracksTruthCollectionSelector
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ TrackSlimmer
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ ITkTrackParticleCnvAlg
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ InDetPriVxFinder
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO Top sequence 1
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO \__ AthOutSeq
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ EventInfoTagBuilder
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO    \__ StreamAOD
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO Condition Algorithms
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelModuleConfigCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ CondInputLoader (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelAlignCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelDetectorElementCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelChargeCalibCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ AtlasFieldMapCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ AtlasFieldCacheCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelDCSCondHVAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelDCSCondTempAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelSiPropertiesCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelSiLorentzAngleCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkStripAlignCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkStripDetectorElementCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkStripSiLorentzAngleCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelDCSCondStateAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelDCSCondStatusAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelDeadMapCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ BeamSpotCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkSiElementPropertiesTableCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ SiDetElementsRoadCondAlg_xk (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkSiDetElementBoundaryLinksPixelCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkSiDetElementBoundaryLinksStripCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ITkPixelOfflineCalibCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ HGTD_DetectorElementCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ AtlasTrackingGeometryCondAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ActsDetAlignmentCondAlgITkSct (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ActsDetAlignmentAlgITkSct (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ActsDetAlignmentCondAlgITkPixel (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ ActsDetAlignmentAlgITkPixel (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO  \__ GeometryContextAlg (cond alg)
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO Services
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO ['IOVDbSvc', 'PoolSvc', 'AthenaPoolCnvSvc', 'EventPersistencySvc', 'CondSvc', 'ProxyProviderSvc', 'TagInfoMgr', 'MetaDataStore', 'InputMetaDataStore', 'MetaDataSvc', 'Athena::DelayedConditionsCleanerSvc', 'Athena::ConditionsCleanerSvc', 'RDBAccessSvc', 'GeoDbTagSvc', 'DetDescrCnvSvc', 'GeoModelSvc', 'ITkPixelReadoutManager', 'AtlasGeometry_EnvelopeDefSvc', 'ITkEtaDependentCutsSvc', 'MuonIdHelperSvc', 'ActsTrackingGeometrySvc']
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO Public Tools
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO [
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   IOVDbMetaDataTool/IOVDbMetaDataTool,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::RungeKuttaPropagator/ITkPatternPropagator,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::RIO_OnTrackCreator/ITkRotCreator,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::KalmanUpdator_xk/ITkPatternUpdator,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::TrackingVolumeArrayCreator/TrackingVolumeArrayCreator,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::TrackingVolumeHelper/TrackingVolumeHelper,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   InDet::BeamPipeBuilderCond/ITkBeamPipeBuilderCond,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::LayerProviderCond/ITkBeamPipeProvider,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   InDet::SiLayerBuilderCond/ITkPixelLayerBuilderInnerCond,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::LayerProviderCond/ITkPixelProviderInner,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   InDet::SiLayerBuilderCond/ITkPixelLayerBuilderOuterCond,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::LayerProviderCond/ITkPixelProviderOuter,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   InDet::SiLayerBuilderCond/ITkStripLayerBuilderCond,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::LayerProviderCond/ITkStripProvider,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::LayerArrayCreator/LayerArrayCreator,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::TrackingVolumeHelper/ITkTrackingVolumeHelper,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::CylinderVolumeCreator/ITkCylinderVolumeCreator,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   HGTD_LayerBuilderCond/HGTD_LayerBuilderCond,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::TrackingVolumeHelper/HGTD_TrackingVolumeHelper,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::CylinderVolumeCreator/HGTD_CylinderVolumeCreator,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::RungeKuttaPropagator/ITkPropagator,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::TrackSlimmingTool/TrackSlimmingTool,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::TrackSummaryTool/ITkTrackSummaryTool,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO   Trk::TrackParticleCreatorTool/InDetTrackParticlesCreatorTool,
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO ]
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO Private Tools
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO [
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO ]
+RAWtoALL 23:44:35 Py:ComponentAccumulator    INFO theApp properties
+RAWtoALL 23:44:35 Py:RecoSteering      INFO ---------- Configured tracking
+RAWtoALL 23:44:35 Py:RecoSteering      INFO ---------- Configured HGTD track extension
+RAWtoALL 23:44:35 Py:ThinTRTStandaloneAlg    INFO Starting TRT standalone Thinning configuration
+RAWtoALL 23:44:35 Py:ThinTRTStandaloneAlg    INFO TRT Alone Thinning configured
+RAWtoALL 23:44:35 Py:ThinGeantTruthAlg    INFO Starting  Geant4 Truth Thinning configuration
+RAWtoALL 23:44:35 Py:ThinGeantTruthAlg    INFO Geant4 Truth Thinning configured
+RAWtoALL 23:44:35 Py:RecoSteering      INFO ---------- Configured post-processing
+RAWtoALL 23:44:35 Py:RecoSteering      INFO AOD ItemList: ['xAOD::EventInfo#EventInfo', 'xAOD::TruthEventContainer#TruthEvents', 'xAOD::TruthVertexContainer#TruthVertices', 'xAOD::TruthParticleContainer#TruthParticles', 'xAOD::TruthParticleContainer#TruthPileupParticles', 'xAOD::JetContainer#InTimeAntiKt4TruthJets', 'xAOD::JetContainer#OutOfTimeAntiKt4TruthJets', 'xAOD::VertexContainer#PrimaryVertices', 'xAOD::TrackParticleContainer#InDetTrackParticles', 'xAOD::EventAuxInfo#EventInfoAux.', 'xAOD::TruthEventAuxContainer#TruthEventsAux.', 'xAOD::TruthVertexAuxContainer#TruthVerticesAux.', 'xAOD::TruthParticleAuxContainer#TruthParticlesAux.', 'xAOD::TruthParticleAuxContainer#TruthPileupParticlesAux.', 'xAOD::AuxContainerBase!#InTimeAntiKt4TruthJetsAux.-PseudoJet.-constituentLinks.-constituentWeights', 'xAOD::AuxContainerBase!#OutOfTimeAntiKt4TruthJetsAux.-PseudoJet.-constituentLinks.-constituentWeights', 'xAOD::VertexAuxContainer#PrimaryVerticesAux.-vxTrackAtVertex.-MvfFitInfo.-isInitialized.-VTAV.-TruthEventMatchingInfos.-TruthEventRawMatchingInfos.-VertexMatchType', 'xAOD::TrackParticleAuxContainer#InDetTrackParticlesAux.-clusterAssociation.-TTVA_AMVFVertices_forReco.-AssoClustersUFO.-TTVA_AMVFWeights_forReco.-VxTrackAtVertex.-TrackCompatibility.-JetFitter_TrackCompatibility_antikt4emtopo.-JetFitter_TrackCompatibility_antikt4empflow.-btagIp_d0Uncertainty.-btagIp_z0SinThetaUncertainty.-btagIp_z0SinTheta.-btagIp_d0.-btagIp_trackMomentum.-btagIp_trackDisplacement.-btagIp_invalidIp.-TTVA_AMVFVertices.-TTVA_AMVFWeights.-TrkBLX.-TrkBLY.-TrkBLZ.-TrkIBLX.-TrkIBLY.-TrkIBLZ.-TrkL1X.-TrkL1Y.-TrkL1Z.-TrkL2X.-TrkL2Y.-TrkL2Z.-IDTIDE_biased_PVd0Sigma.-IDTIDE_biased_PVz0Sigma.-IDTIDE_biased_PVz0SigmaSinTheta.-IDTIDE_biased_d0.-IDTIDE_biased_d0Sigma.-IDTIDE_biased_z0.-IDTIDE_biased_z0Sigma.-IDTIDE_biased_z0SigmaSinTheta.-IDTIDE_biased_z0SinTheta.-IDTIDE_unbiased_PVd0Sigma.-IDTIDE_unbiased_PVz0Sigma.-IDTIDE_unbiased_PVz0SigmaSinTheta.-IDTIDE_unbiased_d0.-IDTIDE_unbiased_d0Sigma.-IDTIDE_unbiased_z0.-IDTIDE_unbiased_z0Sigma.-IDTIDE_unbiased_z0SigmaSinTheta.-IDTIDE_unbiased_z0SinTheta.-IDTRKVALID_biased_PVz0Sigma.-IDTRKVALID_unbiased_PVz0Sigma.-IDTRKVALID_biased_PVd0Sigma.-IDTRKVALID_unbiased_PVd0Sigma.-IDTRKVALID_biased_d0Sigma.-IDTRKVALID_unbiased_z0.-IDTRKVALID_unbiased_d0Sigma.-IDTRKVALID_biased_PVz0SigmaSinTheta.-IDTRKVALID_biased_z0.-IDTRKVALID_unbiased_PVz0SigmaSinTheta.-IDTRKVALID_biased_z0Sigma.-IDTRKVALID_biased_z0SigmaSinTheta.-IDTRKVALID_unbiased_d0.-IDTRKVALID_unbiased_z0Sigma.-IDTRKVALID_unbiased_z0SigmaSinTheta.-IDTRKVALID_biased_d0.-IDTRKVALID_biased_z0SinTheta.-IDTRKVALID_unbiased_z0SinTheta.-msosLink']
+RAWtoALL 23:44:35 Py:RecoSteering      INFO AOD MetadataItemList: ['xAOD::FileMetaData#FileMetaData', 'xAOD::EventFormat#EventFormatStreamAOD', 'IOVMetaDataContainer#*', 'ByteStreamMetadataContainer#*', 'xAOD::TruthMetaDataContainer#TruthMetaData', 'EventStreamInfo#StreamAOD', 'xAOD::FileMetaDataAuxInfo#FileMetaDataAux.', 'xAOD::TruthMetaDataAuxContainer#TruthMetaDataAux.']
+RAWtoALL 23:44:35 Py:RecoSteering      INFO ---------- Configured AOD writing
+RAWtoALL 23:44:35 Py:PerfMonMTSvcCfg    INFO Configuring PerfMonMTSvc with flags:
+RAWtoALL 23:44:35 Py:PerfMonMTSvcCfg    INFO   >> doFastMonMT True
+RAWtoALL 23:44:35 Py:PerfMonMTSvcCfg    INFO   >> doFullMonMT False
+RAWtoALL 23:44:35 Py:RecoSteering      INFO ---------- Configured PerfMon
+RAWtoALL 23:44:35 Traceback (most recent call last):
+RAWtoALL 23:44:35   File "/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101/Athena/25.0.23/InstallArea/x86_64-el9-gcc14-opt/bin/athena.py", line 166, in <module>
+RAWtoALL 23:44:35     runpy.run_path( opts.scripts[0], run_name='__main__' )
+RAWtoALL 23:44:35   File "<frozen runpy>", line 291, in run_path
+RAWtoALL 23:44:35   File "<frozen runpy>", line 98, in _run_module_code
+RAWtoALL 23:44:35   File "<frozen runpy>", line 88, in _run_code
+RAWtoALL 23:44:35   File "./runargs.RAWtoALL.py", line 41, in <module>
+RAWtoALL 23:44:35     fromRunArgs(runArgs)
+RAWtoALL 23:44:35   File "/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101/Athena/25.0.23/InstallArea/x86_64-el9-gcc14-opt/python/RecJobTransforms/RAWtoALL_Skeleton.py", line 310, in fromRunArgs
+RAWtoALL 23:44:35     processPostInclude(runArgs, flags, cfg)
+RAWtoALL 23:44:35   File "/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101/Athena/25.0.23/InstallArea/x86_64-el9-gcc14-opt/python/PyJobTransforms/TransformUtils.py", line 76, in processPostInclude
+RAWtoALL 23:44:35     executeFromFragment(fragment, flags, cfg)
+RAWtoALL 23:44:35   File "/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/2024-11-25T2101/Athena/25.0.23/InstallArea/x86_64-el9-gcc14-opt/python/PyJobTransforms/TransformUtils.py", line 23, in executeFromFragment
+RAWtoALL 23:44:35     loaded_module = import_module(module)
+RAWtoALL 23:44:35                     ^^^^^^^^^^^^^^^^^^^^^
+RAWtoALL 23:44:35   File "/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc14-opt/sw/lcg/releases/LCG_106a_ATLAS_5/Python/3.11.9/x86_64-el9-gcc14-opt/lib/python3.11/importlib/__init__.py", line 126, in import_module
+RAWtoALL 23:44:35     return _bootstrap._gcd_import(name[level:], package, level)
+RAWtoALL 23:44:35            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RAWtoALL 23:44:35   File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+RAWtoALL 23:44:35   File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+RAWtoALL 23:44:35   File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+RAWtoALL 23:44:35   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+RAWtoALL 23:44:35   File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+RAWtoALL 23:44:35   File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+RAWtoALL 23:44:35   File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+RAWtoALL 23:44:35 ModuleNotFoundError: No module named 'GeoModelConversion'
+PyJobTransforms.trfExe.execute 2024-11-25 23:44:35,986 INFO RAWtoALL executor returns 1
+PyJobTransforms.trfExe.validate 2024-11-25 23:44:36,987 ERROR Validation of return code failed: Non-zero return code from RAWtoALL (1) (Error code 65)
+PyJobTransforms.trfExe.validate 2024-11-25 23:44:36,987 INFO Analysing memory monitor output file prmon.full.RAWtoALL for possible memory leak
+PyJobTransforms.trfUtils.getFittedData 2024-11-25 23:44:36,988 INFO removing tails from the memory monitor data; 20% from each side
+PyJobTransforms.trfUtils.getFittedData 2024-11-25 23:44:36,988 WARNING wrong length of table data, x=[], y=[] (must be same and length>=5)
+PyJobTransforms.trfExe.validate 2024-11-25 23:44:36,988 WARNING Failed to analyse the memory monitor file prmon.full.RAWtoALL
+PyJobTransforms.trfExe.validate 2024-11-25 23:44:36,994 INFO Scanning logfile log.RAWtoALL for errors in substep r2a
+PyJobTransforms.transform.execute 2024-11-25 23:44:37,004 CRITICAL Transform executor raised TransformValidationException: Non-zero return code from RAWtoALL (1)
+PyJobTransforms.transform.execute 2024-11-25 23:44:40,466 WARNING Transform now exiting early with exit code 65 (Non-zero return code from RAWtoALL (1))
