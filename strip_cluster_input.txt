@@ -1,0 +1,50 @@
+ab00000000010000 event header w1
+0003b15000000000 event header w2
+0000000000000000 event header w3
+550a013c00000000 module header w1
+8d28000000000000 strip EF RDO
+550a013c80000000 module header w1
+8d30000000000000 strip EF RDO
+550a41bc00000000 module header w1
+97b0000000000000 strip EF RDO
+550a41bc80000000 module header w1
+97a0000000000000 strip EF RDO
+550a82bb00000000 module header w1
+82d8000000000000 strip EF RDO
+550a82bb80000000 module header w1
+0910000008860000 strip EF RDO (include a 0x8860000)
+8809000000000000 strip EF RDO
+550ac3bb00000000 module header w1
+08090000915c0000 strip EF RDO (include a 0x915c0000)
+550ac3bb80000000 module header w1
+1388000008090000 strip EF RDO (include a 0x8090000)
+92cc000000000000 strip EF RDO
+cd00000000000000 event footer w1
+0000000000000000 event footer w2
+000000150207c6c7 event footer w3
+ab00000000020000 event header w1
+0003b15000000000 event header w2
+0000000000000000 event header w3
+550a003b00000000 module header w1
+c1e0000000000000 strip EF RDO
+550a003c80000000 module header w1
+c5e0000000000000 strip EF RDO
+550a403d00000000 module header w1
+c338000000000000 strip EF RDO
+550a403d80000000 module header w1
+c830000000000000 strip EF RDO
+550a40bd80000000 module header w1
+0004000088090000 strip EF RDO (include a 0x88090000)
+550a803c00000000 module header w1
+bd38000000000000 strip EF RDO
+550a803c80000000 module header w1
+3cd4000088090000 strip EF RDO (include a 0x88090000)
+550ac03c00000000 module header w1
+9fd8000000000000 strip EF RDO
+550ac03d00000000 module header w1
+8b94000000000000 strip EF RDO
+550ac03d80000000 module header w1
+0b9c000088090000 strip EF RDO (include a 0x88090000)
+cd00000000000000 event footer w1
+0000000000000000 event footer w2
+0000002f3f91b6bf event footer w3
