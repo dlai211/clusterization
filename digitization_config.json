@@ -5,20 +5,12 @@
                     "segmentation": {
                         "binningdata": [
                             {
-                                "bins": 768,
-                                "max": 19.299999237060547,
-                                "min": -19.299999237060547,
+                                "bins": 3,
+                                "max": 1,
+                                "min": -1,
                                 "option": "open",
                                 "type": "equidistant",
                                 "value": "binX"
-                            },
-                            {
-                                "bins": 800,
-                                "max": 20.100000381469727,
-                                "min": -20.100000381469727,
-                                "option": "open",
-                                "type": "equidistant",
-                                "value": "binY"
                             }
                         ]
                     }
