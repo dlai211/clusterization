@@ -1,3 +1,10 @@
+{
+    "acts-geometry-hierarchy-map": {
+        "format-version": 0,
+        "value-identifier": "digitization-configuration"
+    },
+    "entries": [
+        {
             "layer": 2,
             "sensitive": 1,
             "value": {
@@ -17,5 +24,5 @@
                 }
             },
             "volume": 8
-        }
+        } ]
 }
