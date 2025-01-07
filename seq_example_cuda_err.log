@@ -1,0 +1,78 @@
+
+Running Full Tracking Chain Using CUDA
+
+>>> Detector Options <<<
+  Detector file       : /eos/user/j/jlai/itk_data/ITk_DetectorBuilder_geometry.json
+  Material file       : 
+  Surface grid file   : /eos/user/j/jlai/itk_data/ITk_DetectorBuilder_surface_grids.json
+  Use detray::detector: yes
+  Digitization file   : /eos/user/j/jlai/itk_data/ITk_digitization_config.json
+>>> Input Data Options <<<
+  Use ACTS geometry source      : no
+  Input data format             : csv
+  Input directory               : /eos/user/j/jlai/itk_data/ITk_hit_data
+  Number of input events        : 1
+  Number of input events to skip: 1
+>>> Output Data Options <<<
+  Output data format: csv
+  Output directory  : output
+>>> Clusterization Options <<<
+  Threads per partition:      256
+  Target cells per thread:    8
+  Max cells per thread:       16
+  Scratch space size mult.:   256
+>>> Track Seeding Options <<<
+  None
+>>> Track Finding Options <<<
+  Max number of branches per seed: 10
+  Max number of branches per surface: 10
+  Track candidates range   : 3:100
+  Minimum step length for the next surface: 0.5 [mm] 
+  Maximum step counts for the next surface: 100
+  Maximum Chi2             : 10
+  Maximum branches per step: 10
+  Maximum number of skipped steps per candidates: 3
+  PDG Number: 13
+>>> Track Propagation Options <<<
+Navigation
+----------------------------
+  Min. mask tolerance   : 1e-05 [mm]
+  Max. mask tolerance   : 1 [mm]
+  Mask tolerance scalor : 0.05
+  Path tolerance        : 1 [um]
+  Overstep tolerance    : -100 [um]
+  Search window         : 0 x 0
+
+Parameter Transport
+----------------------------
+  Min. Stepsize         : 0.0001 [mm]
+  Runge-Kutta tolerance : 0.0001 [mm]
+  Max. step updates     : 10000
+  Stepsize  constraint  : 3.40282e+38 [mm]
+  Path limit            : 5 [m]
+  Use Bethe energy loss : true
+  Do cov. transport     : true
+  Use eloss gradient    : false
+  Use B-field gradient  : false
+
+Geometry Context
+----------------------------
+0
+
+>>> Performance Measurement Options <<<
+  Run performance checks: no
+>>> Accelerator Options <<<
+  Compare with CPU results: no
+
+WARNING: No material in detector
+
+WARNING: No entries in volume finder
+
+Detector check: OK
+WARNING: No material in detector
+
+WARNING: No entries in volume finder
+
+Detector check: OK
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  Unsupported data format
