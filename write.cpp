@@ -90,6 +90,15 @@ void write(std::size_t event, std::string_view directory,
                 traccc::measurement_collection_types::const_device{
                     measurements});
             break;
+       case data_format::csv:
+            csv::write_cells(
+                get_absolute_path((std::filesystem::path(directory) /
+                                   std::filesystem::path(
+                                       get_event_filename(event, "-measurements.csv")))
+                                      .native()),
+                traccc::measurement_collection_types::const_device{
+                    measurements});
+            break;
         default:
             throw std::invalid_argument("Unsupported data format");
     }
