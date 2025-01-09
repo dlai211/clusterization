@@ -83,15 +83,15 @@ Detector check: OK
 - created  (cpu) 0 seeds
 - created (cuda) 145871 seeds
 - found (cpu)    0 tracks
-- found (cuda)   70462 tracks
+- found (cuda)   70466 tracks
 - fitted (cpu)   0 tracks
-- fitted (cuda)  70462 tracks
+- fitted (cuda)  70466 tracks
 ==>Elapsed times...
-           File reading  (cpu)  1474 ms
-         Clusterization (cuda)  34 ms
-   Spacepoint formation (cuda)  3 ms
-                Seeding (cuda)  374 ms
-           Track params (cuda)  3 ms
-          Track finding (cuda)  1761 ms
-          Track fitting (cuda)  272 ms
-                     Wall time  3929 ms
+           File reading  (cpu)  1463 ms
+         Clusterization (cuda)  18 ms
+   Spacepoint formation (cuda)  4 ms
+                Seeding (cuda)  364 ms
+           Track params (cuda)  2 ms
+          Track finding (cuda)  1772 ms
+          Track fitting (cuda)  254 ms
+                     Wall time  3884 ms
