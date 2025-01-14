@@ -1,0 +1,40 @@
+{
+    "acts-geometry-hierarchy-map": {
+        "format-version": 0,
+        "value-identifier": "digitization-configuration"
+    },
+    "entries": [
+        {
+            "layer": 2,
+            "sensitive": 1,
+            "value": {
+                "geometric": {
+                    "segmentation": {
+                        "binningdata": [
+                            {
+                                "bins": 10,
+                                "max": 20,
+                                "min": -20,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binX"
+                            },
+                            {
+                                "bins": 1,
+                                "max": 20,
+                                "min": -20,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binY"
+                            }
+                        ]
+                    }
+                }
+            },
+            "volume": 8
+        },
+        {
+            "layer": 2,
+            "sensitive": 2,
+            "value": {
+                "geometric": {
