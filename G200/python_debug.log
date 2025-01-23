@@ -1,16 +1,16 @@
-Py:AutoConfigFlags    INFO Obtaining metadata of auto-configuration by peeking into '/eos/user/j/jlai/itk_data/RDO.33629030._000052.pool.root.1'
+Py:AutoConfigFlags    INFO Obtaining metadata of auto-configuration by peeking into '/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1'
 Py:MetaReader        INFO Current mode used: lite
-Py:MetaReader        INFO Current filenames: ['/eos/user/j/jlai/itk_data/RDO.33629030._000052.pool.root.1']
+Py:MetaReader        INFO Current filenames: ['/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/PhaseIIUpgrade/RDO/ATLAS-P2-RUN4-01-01-00/mc21_14TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.recon.RDO.e8481_s4038_r14365/RDO.32520484._000001.pool.root.1']
 Py:MetaReader        INFO MetaReader is called with the parameter "unique_tag_info_values" set to True. This is a workaround to remove all duplicate values from "/TagInfo" key
 ApplicationMgr    SUCCESS 
 ====================================================================================================================================
                                                    Welcome to ApplicationMgr (GaudiCoreSvc v39r1)
-                                          running on lxplus904.cern.ch on Wed Jan 22 16:24:41 2025
+                                          running on lxplus959.cern.ch on Thu Jan 23 00:14:11 2025
 ====================================================================================================================================
 ApplicationMgr       INFO Application Manager Configured successfully
-Py:ComponentAccumulator    INFO Athena job with pid 3356520
+Py:ComponentAccumulator    INFO Athena job with pid 2103634
 CoreDumpSvc                                          INFO Handling signals: 11(Segmentation fault) 7(Bus error) 4(Illegal instruction) 14(Alarm clock) 
-ClassIDSvc                                           INFO getRegistryEntries: read 21200 CLIDRegistry entries for module ALL
+ClassIDSvc                                           INFO getRegistryEntries: read 21230 CLIDRegistry entries for module ALL
 IOVDbSvc                                             INFO Only 5 POOL conditions files will be open at once
 IOVDbSvc                                             INFO Cache alignment will be done in 3 slices
 IOVDbSvc                                             INFO Global tag: OFLCOND-MC15c-SDR-14-05 set from joboptions
@@ -25,10 +25,10 @@ PoolSvc                                              INFO Set connectionsvc retr
 PoolSvc                                              INFO Frontier compression level set to 5
 DBReplicaSvc                                         INFO Frontier server at (serverurl=http://atlasfrontier-local.cern.ch:8000/atlr)(serverurl=http://atlasfrontier-ai.cern.ch:8000/atlr)(proxyurl=http://ca-proxy-atlas.cern.ch:3128)(proxyurl=http://ca-proxy-meyrin.cern.ch:3128)(proxyurl=http://ca-proxy.cern.ch:3128)(proxyurl=http://atlasbpfrontier.cern.ch:3127) will be considered for COOL data
 DBReplicaSvc                                         INFO Read replica configuration from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/share/dbreplica.config
-DBReplicaSvc                                         INFO Total of 10 servers found for host lxplus904.cern.ch [ATLF ATLAS_COOLPROD atlas_dd ATLAS_CONFIG INT8R INTR ATONR_COOL ATONR_CONF DEVDB11 ATLF ]
+DBReplicaSvc                                         INFO Total of 10 servers found for host lxplus959.cern.ch [ATLF ATLAS_COOLPROD atlas_dd ATLAS_CONFIG INT8R INTR ATONR_COOL ATONR_CONF DEVDB11 ATLF ]
 PoolSvc                                              INFO Successfully setup replica sorting algorithm
 PoolSvc                                              INFO Setting up APR FileCatalog and Streams
-PoolSvc                                              INFO Unable find catalog apcfile:poolcond/PoolFileCatalog.xml in $ATLAS_POOLCOND_PATH and $DATAPATH
+PoolSvc                                              INFO Resolved path (via ATLAS_POOLCOND_PATH) is /cvmfs/atlas-condb.cern.ch/repo/conditions/poolcond/PoolFileCatalog.xml
 PoolSvc                                              INFO Unable find catalog apcfile:poolcond/PoolCat_oflcond.xml in $ATLAS_POOLCOND_PATH and $DATAPATH
 PoolSvc                                              INFO POOL WriteCatalog is xmlcatalog_file:PoolFileCatalog.xml
 DbSession                                            INFO     Open     DbSession    
@@ -121,7 +121,7 @@ IdDictDetDescrCnv                                    INFO Using dictionary tag: 
 IdDictDetDescrCnv                                    INFO Dictionary ATLAS                version default              DetDescr tag (using default) file 
 IdDictDetDescrCnv                                    INFO Dictionary Calorimeter          version default              DetDescr tag CaloIdentifier-LVL1-02 file IdDictParser/IdDictCalorimeter_L1Onl.xml
 IdDictDetDescrCnv                                    INFO Dictionary ForwardDetectors     version default              DetDescr tag ForDetIdentifier-00       file IdDictParser/IdDictForwardDetectors.xml
-IdDictDetDescrCnv                                    INFO Dictionary InnerDetector        version P2-RUN4              DetDescr tag (using default) file InDetIdDict.xml
+IdDictDetDescrCnv                                    INFO Dictionary InnerDetector        version ITkHGTDPLR           DetDescr tag (using default) file InDetIdDict.xml
 IdDictDetDescrCnv                                    INFO Dictionary LArCalorimeter       version fullAtlas            DetDescr tag LArIdentifier-DC3-05-Comm file IdDictParser/IdDictLArCalorimeter_DC3-05-Comm-01.xml
 IdDictDetDescrCnv                                    INFO Dictionary LArElectrode         version fullAtlas            DetDescr tag (using default) file 
 IdDictDetDescrCnv                                    INFO Dictionary LArHighVoltage       version fullAtlas            DetDescr tag (using default) file 
@@ -152,7 +152,7 @@ eta_module    5
 phi_index     6
 eta_index     7
 GeoModelSvc.ITk::PixelDetectorTool                   INFO Trying new ITkPixel database location.
-GeoModelSvc.ITk::PixelDetectorTool                   INFO Using PixelXDD-03-00 from ATLAS tag ATLAS-P2-RUN4-03-00-00
+GeoModelSvc.ITk::PixelDetectorTool                   INFO Using PixelXDD-02-00 from ATLAS tag ATLAS-P2-RUN4-01-01-00
 GeoModelSvc.ITk::PixelDetectorTool                   INFO Getting ITkPixel GeoModelXml description from the geometry database
 Transcoded it
 Parsed it
@@ -191,9 +191,9 @@ GeoModelSvc.ITk::PixelDetectorTool                   INFO Max. eta cells is 800
 GeoModelSvc.ITk::PixelDetectorTool                   INFO Max. phi cells is 768
 GeoModelSvc.ITk::PixelDetectorTool                   INFO End of numerology
 
-GeoModelSvc                                          INFO GeoModelSvc.ITk::PixelDetectorTool	 SZ= 48940Kb 	 Time = 0.64S
+GeoModelSvc                                          INFO GeoModelSvc.ITk::PixelDetectorTool	 SZ= 51508Kb 	 Time = 0.74S
 GeoModelSvc.BeamPipeDetectorTool                     INFO Building Beam Pipe
-GeoModelSvc                                          INFO GeoModelSvc.BeamPipeDetectorTool	 SZ= 0Kb 	 Time = 0S
+GeoModelSvc                                          INFO GeoModelSvc.BeamPipeDetectorTool	 SZ= 0Kb 	 Time = 0.01S
 LArElectrodeIDDetDescrCnv                            INFO in createObj: creating a LArElectrodeID helper object in the detector store
 LArElectrodeID                                       INFO  => initialize_from_dictionary()
 AtlasDetectorID                                      INFO initialize_from_dictionary - OK
@@ -208,13 +208,13 @@ LArHVLineID                                          INFO setDictVersion of LArH
 LArHVLineID                                          INFO [initLevelsFromDict] m_dict OK ... 
 LArHVLineID                                          INFO [initialize_from_dictionary] >  HV line range -> 11/1/48:79/0:15 | 11/1/148:179/0:15 | 11/1/80:93/0:7 | 11/1/180:193/0:7 | 11/1/200:231/0:15 | 11/1/232:263/0:15 | 11/1/296,297,306,307/0:15 | 11/1/299,304,305,308,309/0:15 | 11/1/264:279/0:15 | 11/1/280:295/0:15 | 11/1/0:47/0:15 | 11/1/320:322/0:15 | 11/1/100:147/0:15 | 11/1/324,325/0:15 | 11/1/312:315/0:15 | 11/1/316:319/0:15 | 11/1/300:303/0:15 | 11/1/310,311/0:15 | 11/1/323/0:15 | 11/1/326,327/0:15 | 11/1/94:99/0:15 | 11/1/194:199/0:15
 LArHVLineID                                          INFO [init_hashes()] > Hvline_size= 5008
-GeoModelSvc.LArDetectorToolNV                        INFO Keys for LAr are ATLAS-P2-RUN4-03-00-00  ATLAS
-GeoModelSvc.LArDetectorToolNV                        INFO Building LAr version LAr-Revised-20 while ATLAS version is ATLAS-P2-RUN4-03-00-00
+GeoModelSvc.LArDetectorToolNV                        INFO Keys for LAr are ATLAS-P2-RUN4-01-01-00  ATLAS
+GeoModelSvc.LArDetectorToolNV                        INFO Building LAr version LAr-Revised-20 while ATLAS version is ATLAS-P2-RUN4-01-01-00
 GeoModelSvc.LArDetectorToolNV                        INFO LAr Geometry Options:
 GeoModelSvc.LArDetectorToolNV                        INFO   Sagging           = false
 GeoModelSvc.LArDetectorToolNV                        INFO   Barrel            = ON
 GeoModelSvc.LArDetectorToolNV                        INFO   Endcap            = ON
-BarrelConstruction                                   INFO Getting primary numbers for ATLAS, ATLAS-P2-RUN4-03-00-00
+BarrelConstruction                                   INFO Getting primary numbers for ATLAS, ATLAS-P2-RUN4-01-01-00
 BarrelConstruction                                   INFO   Makes detailed absorber sandwich  ? 1 1
 BarrelConstruction                                   INFO   Use sagging in geometry  ? 0
 EMECConstruction                                     INFO multi-layered version of absorbers activated, parameter value is 1
@@ -225,9 +225,9 @@ EMECConstruction                                     INFO multi-layered version 
 EMECConstruction                                     INFO activating LAr::EMEC::Neg::InnerWheel
 EMECConstruction                                     INFO activating LAr::EMEC::Neg::OuterWheel
 EndcapDMConstruction                                 INFO Start building EC electronics geometry
-GeoModelSvc                                          INFO GeoModelSvc.LArDetectorToolNV	 SZ= 13504Kb 	 Time = 0.45S
+GeoModelSvc                                          INFO GeoModelSvc.LArDetectorToolNV	 SZ= 13564Kb 	 Time = 0.51S
 GeoModelSvc.TileDetectorTool                         INFO  Entering TileDetectorTool::create()
-TileDddbManager                                      INFO m_tag = ATLAS-P2-RUN4-03-00-00
+TileDddbManager                                      INFO m_tag = ATLAS-P2-RUN4-01-01-00
 TileDddbManager                                      INFO n_tiglob = 5
 TileDddbManager                                      INFO n_timod = 320
 TileDddbManager                                      INFO n_cuts = 9
@@ -253,7 +253,7 @@ AtlasDetectorID                                      INFO initialize_from_dictio
 GeoModelSvc.TileDetectorTool                         INFO Ushape parameter from database is: 1
 GeoModelSvc.TileDetectorTool                         INFO Glue parameter from database is: 1
 GeoModelSvc.TileDetectorTool                         INFO PVT parameter from database is: 1
-GeoModelSvc.TileDetectorTool                         INFO Steel parameter from database is: 1
+GeoModelSvc.TileDetectorTool                         INFO Steel parameter from database is: 0
 GeoModelSvc.TileDetectorTool                         INFO CsTube parameter from database is: 0
 GeoModelSvc.TileDetectorTool                         INFO  Entering TileAtlasFactory::create()
 GeoModelSvc.TileDetectorTool                         INFO  Tile Geometry with Saddle supports, starting from TileCal-CSC-02 xxx
@@ -280,11 +280,11 @@ GeoModelSvc.TileDetectorTool                         INFO  Global positioning of
 GeoModelSvc.TileDetectorTool                         INFO  Global positioning of positive ext.barrel with rotation (0,0,0)) and translation (0,0,0) Gaudi::Units::cm
 GeoModelSvc.TileDetectorTool                         INFO  Global positioning of negative ext.barrel with rotation (0,0,0)) and translation (0,0,1) Gaudi::Units::cm
 TileDetDescrManager                                  INFO Entering create_elements()
-GeoModelSvc                                          INFO GeoModelSvc.TileDetectorTool	 SZ= 9624Kb 	 Time = 0.19S
+GeoModelSvc                                          INFO GeoModelSvc.TileDetectorTool	 SZ= 9644Kb 	 Time = 0.22S
 SCT_ID                                               INFO 
 AtlasDetectorID                                      INFO initialize_from_dictionary - OK
 GeoModelSvc.ITk::StripDetectorTool                   INFO Trying new ITkStrip database location.
-GeoModelSvc.ITk::StripDetectorTool                   INFO Using StripXDD-03-00 from ATLAS tag ATLAS-P2-RUN4-03-00-00
+GeoModelSvc.ITk::StripDetectorTool                   INFO Using StripXDD-02-00 from ATLAS tag ATLAS-P2-RUN4-01-01-00
 GeoModelSvc.ITk::StripDetectorTool                   INFO Getting ITkStrip GeoModelXml description from the geometry database
 Transcoded it
 Parsed it
@@ -453,7 +453,7 @@ GeoModelSvc.ITk::StripDetectorTool                   INFO Max. phi cells is 1536
 GeoModelSvc.ITk::StripDetectorTool                   INFO Max. no. strips is 1536
 GeoModelSvc.ITk::StripDetectorTool                   INFO End of numerology
 
-GeoModelSvc                                          INFO GeoModelSvc.ITk::StripDetectorTool	 SZ= 116176Kb 	 Time = 1.94S
+GeoModelSvc                                          INFO GeoModelSvc.ITk::StripDetectorTool	 SZ= 116172Kb 	 Time = 2.11S
 HGTD_IDDetDescrCnv                                   INFO in createObj: creating a HGTD_ID helper object in the detector store
 HGTD_ID                                              INFO Initialize from dictionary
 AtlasDetectorID                                      INFO initialize_from_dictionary - OK
@@ -461,10 +461,10 @@ indet 1 2,4,5,7,10,11,12,13 7 1fffffffffffffff 61 3 0 min/max 2 13 values  2 4 5
 hgtd 1 1:4 3 e7ffffffffffffff 59 2 3 min/max 1 4 values  indexes  indices  4 prev  0 next  0 mode  both_bounded  cont mode  none  
 ec 1 -2,2 1 fbffffffffffffff 58 1 5 min/max -2 2 values  -2 2 indexes  0 0 0 0 1 indices  2 prev  0 next  0 mode  enumerated  cont mode  none  
 layer 0 0:3 3 fcffffffffffffff 56 2 6 min/max 0 3 values  indexes  indices  4 prev  0 next  0 mode  both_bounded  cont mode  none  
-phi_mod 1 1:1004 3ff ff003fffffffffff 46 10 8 min/max 1 1004 values  indexes  indices  1004 prev  0 next  0 mode  both_bounded  cont mode  none  
-eta_mod 0 0 1 ffffdfffffffffff 45 1 18 min/max 0 0 values  indexes  indices  1 prev  0 next  0 mode  both_bounded  cont mode  none  
-phi_index 0 0:14 f ffffe1ffffffffff 41 4 19 min/max 0 14 values  indexes  indices  15 prev  0 next  0 mode  both_bounded  cont mode  none  
-eta_index 0 0:29 1f fffffe0fffffffff 36 5 23 min/max 0 29 values  indexes  indices  30 prev  0 next  0 mode  both_bounded  cont mode  none  
+phi_mod 1 1:84 7f ff01ffffffffffff 49 7 8 min/max 1 84 values  indexes  indices  84 prev  0 next  0 mode  both_bounded  cont mode  none  
+eta_mod 1 1:19 1f fffe0fffffffffff 44 5 15 min/max 1 19 values  indexes  indices  19 prev  0 next  0 mode  both_bounded  cont mode  none  
+phi_index 0 0:14 f fffff0ffffffffff 40 4 20 min/max 0 14 values  indexes  indices  15 prev  0 next  0 mode  both_bounded  cont mode  none  
+eta_index 0 0:29 1f ffffff07ffffffff 35 5 24 min/max 0 29 values  indexes  indices  30 prev  0 next  0 mode  both_bounded  cont mode  none  
 HGTD_ID::initLevelsFromDict - found levels 
 subdet        0
 part          1
@@ -474,14 +474,14 @@ phi_module    4
 eta_module    5
 phi_index     6
 eta_index     7
-GeoModelSvc.HGTD_GMX_DetectorTool                    INFO Using HGTDXDD-03-00 from ATLAS tag ATLAS-P2-RUN4-03-00-00
+GeoModelSvc.HGTD_GMX_DetectorTool                    INFO Using HGTDXDD-01-01 from ATLAS tag ATLAS-P2-RUN4-01-01-00
 GeoModelSvc.HGTD_GMX_DetectorTool                    INFO Getting HGTD GeoModelXml description from the geometry database
 Transcoded it
 Parsed it
 Database string successfully parsed.
 GeoModelXML-INFO: Set up detector geometry from db-string 
 which adds sub-detector HGTD
-GeoModelSvc                                          INFO GeoModelSvc.HGTD_GMX_DetectorTool	 SZ= 24676Kb 	 Time = 0.5S
+GeoModelSvc                                          INFO GeoModelSvc.HGTD_GMX_DetectorTool	 SZ= 75632Kb 	 Time = 0.92S
 ClassIDSvc                                           INFO getRegistryEntries: read 107 CLIDRegistry entries for module ALL
 GeoModelSvc.HGTD_GMX_DetectorTool                    INFO Alignment disabled. No callback registered
 GeoModelSvc                                          INFO   AlgTool: GeoModelSvc.ITk::PixelDetectorTool
@@ -530,7 +530,7 @@ ActsTrackingGeometrySvc                              INFO Configured to build 3 
 ActsTrackingGeometrySvc                              INFO  - HGTD
 ActsTrackingGeometrySvc                              INFO  - ITkPixel
 ActsTrackingGeometrySvc                              INFO  - ITkStrip
-ActsTrackingGeometrySvc                              INFO Configured to use material input: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/ACTS/MaterialMaps/ITk/material-maps-ATLAS-P2-RUN4-03-00-00-ITk-HGTD.json
+ActsTrackingGeometrySvc                              INFO Configured to use material input: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/ACTS/MaterialMaps/ITk/material-maps-ATLAS-P2-RUN4-01-01-00-ITk-HGTD.json
 ActsTrackingGeometrySvc                              INFO Acts TrackingGeometry construction completed
 ClassIDSvc                                           INFO getRegistryEntries: read 999 CLIDRegistry entries for module ALL
 AtlasFieldMapCondAlg                                 INFO Initialize: Will update the field map from conditions
@@ -590,570 +590,89 @@ IOVDbFolder                                          INFO HVS tag OFLCOND-MC15c-
 IOVDbSvc                                             INFO Disconnecting from COOLOFL_LAR/OFLP200
 IOVDbSvc                                             INFO Opened read transaction for POOL PersistencySvc
 EventPersistencySvc                                  INFO Added successfully Conversion service AthenaPoolCnvSvc
-Exception: FID "EACFEBD4-9BD2-E211-848A-02163E006B20" is not existing in the catalog ( POOL : "PersistencySvc::UserDatabase::connectForRead" from "PersistencySvc" ) (no backtrace available).
-Exception: AthenaPoolCnvSvc::::ExcCaughtException: Caught exception in StatusCode T_AthenaPoolCustCnv<TRANS, PERS>::poolToObject(const Token*&, P*&) [with P = DetCondKeyTrans; TRANS = DetCondKeyTrans; PERS = DetCondKeyTrans_p1] while pooltoObjectDetCondKeyTrans/[DB=EACFEBD4-9BD2-E211-848A-02163E006B20][CNT=CollectionTree(DetCondKeyTrans//LAR/Align)][CLID=A6DA54AC-D54E-4B6C-8489-C6D015277AD0][TECH=00000202][OID=0000000000000003-0000000000000000][CTXT=00000002]: pool::PersistencySvcException: FID "EACFEBD4-9BD2-E211-848A-02163E006B20" is not existing in the catalog ( POOL : "PersistencySvc::UserDatabase::connectForRead" from "PersistencySvc" ) (no backtrace available).
-AthenaPoolConverter                                 ERROR createObj - caught exception: AthenaPoolCnvSvc::::ExcCaughtException: Caught exception in StatusCode T_AthenaPoolCustomCnvWithKey<TRANS, PERS>::PoolToDataObject(DataObject*&, const Token*, const std::string&) [with TRANS = DetCondKeyTrans; PERS = DetCondKeyTrans_p1; std::string = std::__cxx11::basic_string<char>] while creating transient objectDetCondKeyTrans/: AthenaPoolCnvSvc::ExcCaughtException: AthenaPoolCnvSvc::::ExcCaughtException: Caught exception in StatusCode T_AthenaPoolCustCnv<TRANS, PERS>::poolToObject(const Token*&, P*&) [with P = DetCondKeyTrans; TRANS = DetCondKeyTrans; PERS = DetCondKeyTrans_p1] while pooltoObjectDetCondKeyTrans/[DB=EACFEBD4-9BD2-E211-848A-02163E006B20][CNT=CollectionTree(DetCondKeyTrans//LAR/Align)][CLID=A6DA54AC-D54E-4B6C-8489-C6D015277AD0][TECH=00000202][OID=0000000000000003-0000000000000000][CTXT=00000002]: pool::PersistencySvcException: FID "EACFEBD4-9BD2-E211-848A-02163E006B20" is not existing in the catalog ( POOL : "PersistencySvc::UserDatabase::connectForRead" from "PersistencySvc" )
-AthenaPoolConverter                                 ERROR createObj failed to get DataObject, Token = [DB=EACFEBD4-9BD2-E211-848A-02163E006B20][CNT=CollectionTree(DetCondKeyTrans//LAR/Align)][CLID=A6DA54AC-D54E-4B6C-8489-C6D015277AD0][TECH=00000202][OID=0000000000000003-0000000000000000][CTXT=00000002]
-DataProxy                                         WARNING accessData: conversion failed for data object 254546453//LAR/Align
- Returning NULL DataObject pointer  
-GeoModelSvc.LArDetectorToolNV                       ERROR  Could not retrieve LAr DetCondKeyTrans 
-IOVSvc.IOVSvcTool                                   ERROR Problems calling 
-IOVSvc.IOVSvcTool                                   ERROR Problems preloading IOVRanges
-IncidentSvc                                         ERROR Standard std::exception is caught handling incident BeginRun in listener IOVSvc.IOVSvcTool
-IncidentSvc                                         ERROR IOVSvcTool::preLoadProxies
-terminate called after throwing an instance of 'std::exception'
-  what():  std::exception
- *** Break *** abort
-
-
-
-===========================================================
-There was a crash.
-This is the entire stack trace of all threads:
-===========================================================
-
-Thread 17 (Thread 0x7fa5f6fdd640 (LWP 3357527) "cuda-EvtHandlr"):
-#0  0x00007fa64e501aff in poll () from /lib64/libc.so.6
-#1  0x00007fa5f8a761ef in ?? () from /lib64/libcuda.so.1
-#2  0x00007fa5f8b3a67f in ?? () from /lib64/libcuda.so.1
-#3  0x00007fa5f8a6dee3 in ?? () from /lib64/libcuda.so.1
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 16 (Thread 0x7fa5f87ff640 (LWP 3357526) "cuda0000b80002f"):
-#0  0x00007fa64e501aff in poll () from /lib64/libc.so.6
-#1  0x00007fa5f8a761ef in ?? () from /lib64/libcuda.so.1
-#2  0x00007fa5f8b3a67f in ?? () from /lib64/libcuda.so.1
-#3  0x00007fa5f8a6dee3 in ?? () from /lib64/libcuda.so.1
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 15 (Thread 0x7fa625156640 (LWP 3357125) "python"):
-#0  0x00007fa64e4868ba in __futex_abstimed_wait_common () from /lib64/libc.so.6
-#1  0x00007fa64e491d68 in __new_sem_wait_slow64.constprop.0 () from /lib64/libc.so.6
-#2  0x00007fa62bd88406 in XrdSysSemaphore::Wait (this=0x9eb3660) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.hh:509
-#3  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x9e8d128) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClSyncQueue.hh:66
-#4  XrdCl::JobManager::RunJobs (this=0x9e8d110) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:151
-#5  0x00007fa62bd884b9 in RunRunnerThread (arg=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:34
-#6  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#7  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 14 (Thread 0x7fa625957640 (LWP 3357124) "python"):
-#0  0x00007fa64e4868ba in __futex_abstimed_wait_common () from /lib64/libc.so.6
-#1  0x00007fa64e491d68 in __new_sem_wait_slow64.constprop.0 () from /lib64/libc.so.6
-#2  0x00007fa62bd88406 in XrdSysSemaphore::Wait (this=0x9eb3660) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.hh:509
-#3  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x9e8d128) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClSyncQueue.hh:66
-#4  XrdCl::JobManager::RunJobs (this=0x9e8d110) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:151
-#5  0x00007fa62bd884b9 in RunRunnerThread (arg=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:34
-#6  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#7  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 13 (Thread 0x7fa626158640 (LWP 3357123) "python"):
-#0  0x00007fa64e4868ba in __futex_abstimed_wait_common () from /lib64/libc.so.6
-#1  0x00007fa64e491d68 in __new_sem_wait_slow64.constprop.0 () from /lib64/libc.so.6
-#2  0x00007fa62bd88406 in XrdSysSemaphore::Wait (this=0x9eb3660) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.hh:509
-#3  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x9e8d128) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClSyncQueue.hh:66
-#4  XrdCl::JobManager::RunJobs (this=0x9e8d110) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:151
-#5  0x00007fa62bd884b9 in RunRunnerThread (arg=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:34
-#6  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#7  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 12 (Thread 0x7fa626959640 (LWP 3357122) "python"):
-#0  0x00007fa64e4d4175 in clock_nanosleep
-GLIBC_2.2.5 () from /lib64/libc.so.6
-#1  0x00007fa64e4d8d87 in nanosleep () from /lib64/libc.so.6
-#2  0x00007fa62c5307e8 in XrdSysTimer::Wait (mills=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysTimer.cc:239
-#3  0x00007fa62bd06df6 in XrdCl::TaskManager::RunTasks (this=0x9e7b0a0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClTaskManager.cc:246
-#4  0x00007fa62bd06ef9 in RunRunnerThread (arg=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClTaskManager.cc:38
-#5  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#6  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 11 (Thread 0x7fa62715a640 (LWP 3357121) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9f59190, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9e8b5e0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 10 (Thread 0x7fa62795b640 (LWP 3357120) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9e8b440, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9e82ed0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 9 (Thread 0x7fa62815c640 (LWP 3357119) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9e90ab0, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9eb4570) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 8 (Thread 0x7fa62895d640 (LWP 3357117) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9da2080, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9ebcbd0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 7 (Thread 0x7fa62915e640 (LWP 3357116) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9ea9840, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9ea9a30) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 6 (Thread 0x7fa62995f640 (LWP 3357115) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9cc8c10, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9eb57a0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 5 (Thread 0x7fa62a160640 (LWP 3357114) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9ea7ab0, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9eb29c0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 4 (Thread 0x7fa62a961640 (LWP 3357113) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9f1f380, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9e524b0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 3 (Thread 0x7fa62b162640 (LWP 3357112) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9ea9960, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9f237f0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 2 (Thread 0x7fa62b963640 (LWP 3357111) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9f22780, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9ebcaf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 1 (Thread 0x7fa64edc0480 (LWP 3356520) "python"):
-#0  0x00007fa64e4d8b3f in wait4 () from /lib64/libc.so.6
-#1  0x00007fa64e44b283 in do_system () from /lib64/libc.so.6
-#2  0x00007fa64c313fcb in TUnixSystem::StackTrace() () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/ROOT/6.32.06/x86_64-el9-gcc13-opt/lib/libCore.so
-#3  0x00007fa64c9e4603 in (anonymous namespace)::TExceptionHandlerImp::HandleException(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/ROOT/6.32.06/x86_64-el9-gcc13-opt/lib/libcppyy_backend.so
-#4  0x00007fa64c3137f1 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/ROOT/6.32.06/x86_64-el9-gcc13-opt/lib/libCore.so
-#5  <signal handler called>
-#6  0x00007fa64e48ba6c in __pthread_kill_implementation () from /lib64/libc.so.6
-#7  0x00007fa64e43e686 in raise () from /lib64/libc.so.6
-#8  0x00007fa64e428833 in abort () from /lib64/libc.so.6
-#9  0x00007fa64c6a4bab in ?? () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#10 0x00007fa64c6b40da in ?? () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#11 0x00007fa64c6b4145 in std::terminate() () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#12 0x00007fa64c6b4397 in __cxa_throw () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#13 0x00007fa604581aff in IncidentSvc::i_fireIncident(Incident const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .cold] () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#14 0x00007fa604668ed1 in virtual thunk to IncidentSvc::fireIncident(Incident const&) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#15 0x00007fa5ffc4bb88 in AthenaEventLoopMgr::executeEvent(EventContext&&) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#16 0x00007fa5ffc49fd0 in AthenaEventLoopMgr::nextEvent(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#17 0x00007fa5ffc4563d in AthenaEventLoopMgr::executeRun(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#18 0x00007fa6045a81b5 in ApplicationMgr::executeRun(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#19 0x00007fa62ea81fd6 in py_bootstrap_app_run () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiKernel.so
-#20 0x00007fa64de5d052 in ffi_call_unix64 () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/libffi/3.4.2/x86_64-el9-gcc13-opt/lib64/libffi.so.8
-#21 0x00007fa64de5bc79 in ffi_call_int () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/libffi/3.4.2/x86_64-el9-gcc13-opt/lib64/libffi.so.8
-#22 0x00007fa64de0f0b1 in _call_function_pointer (argtypecount=<optimized out>, argcount=<optimized out>, resmem=0x7ffc506f1b70, restype=<optimized out>, atypes=<optimized out>, avalues=0x7ffc506f1b50, pProc=0x7fa62ea81f70 <py_bootstrap_app_run>, flags=4357) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/callproc.c:923
-#23 _ctypes_callproc (pProc=pProc
-entry=0x7fa62ea81f70 <py_bootstrap_app_run>, argtuple=argtuple
-entry=0x7fa604ce8a00, flags=4357, argtypes=argtypes
-entry=0x7fa6050e8200, restype=<optimized out>, checker=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/callproc.c:1262
-#24 0x00007fa64de09d77 in PyCFuncPtr_call (self=<optimized out>, inargs=<optimized out>, kwds=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/_ctypes.c:4201
-#25 0x00007fa64e95855d in _PyObject_MakeTpCall (tstate=0x7fa64ed7a678 <_PyRuntime+166328>, callable=callable
-entry=0x7fa604cf98b0, args=args
-entry=0x7fa64edda388, nargs=2, keywords=keywords
-entry=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/call.c:214
-#26 0x00007fa64e958b1f in _PyObject_VectorcallTstate (kwnames=0x0, nargsf=<optimized out>, args=0x7fa64edda388, callable=0x7fa604cf98b0, tstate=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_call.h:90
-#27 0x00007fa64e8fd86f in _PyEval_EvalFrameDefault (tstate=<optimized out>, frame=<optimized out>, throwflag=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:4769
-#28 0x00007fa64ea4f754 in _PyEval_EvalFrame (throwflag=0, frame=0x7fa64edda1b8, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_ceval.h:73
-#29 _PyEval_Vector (args=0x0, argcount=0, kwnames=0x0, locals=0x7fa64e26d6c0, func=0x7fa64e398e00, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:6434
-#30 PyEval_EvalCode (co=co
-entry=0x1821b50, globals=globals
-entry=0x7fa64e26d6c0, locals=locals
-entry=0x7fa64e26d6c0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:1148
-#31 0x00007fa64ea4a620 in builtin_exec_impl (module=<optimized out>, closure=<optimized out>, locals=0x7fa64e26d6c0, globals=0x7fa64e26d6c0, source=0x1821b50) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/bltinmodule.c:1077
-#32 builtin_exec (module=<optimized out>, args=<optimized out>, nargs=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/clinic/bltinmodule.c.h:465
-#33 0x00007fa64e9a78f2 in cfunction_vectorcall_FASTCALL_KEYWORDS (func=0x7fa64e388f90, args=0x7fa64edda180, nargsf=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/methodobject.c:443
-#34 0x00007fa64e958ae3 in _PyObject_VectorcallTstate (kwnames=0x7fa64ea4f754 <PyEval_EvalCode+548>, nargsf=<optimized out>, args=0x7fa64edda180, callable=0x7fa64e388f90, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_call.h:92
-#35 PyObject_Vectorcall (callable=callable
-entry=0x7fa64e388f90, args=args
-entry=0x7fa64edda180, nargsf=<optimized out>, kwnames=kwnames
-entry=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/call.c:299
-#36 0x00007fa64e8fd86f in _PyEval_EvalFrameDefault (tstate=<optimized out>, frame=<optimized out>, throwflag=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:4769
-#37 0x00007fa64ea4f8b0 in _PyEval_EvalFrame (throwflag=0, frame=0x7fa64edda020, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_ceval.h:73
-#38 _PyEval_Vector (tstate=0x7fa64ed7a678 <_PyRuntime+166328>, func=<optimized out>, locals=<optimized out>, args=<optimized out>, argcount=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:6434
-#39 0x00007fa64eab90fc in pymain_run_module (modname=<optimized out>, set_argv0=set_argv0
-entry=1) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:300
-#40 0x00007fa64eab991a in pymain_run_python (exitcode=0x7ffc506f21f4) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:595
-#41 Py_RunMain () at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:680
-#42 0x00007fa64eaba117 in pymain_main (args=0x7ffc506f2300) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:710
-#43 Py_BytesMain (argc=<optimized out>, argv=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:734
-#44 0x00007fa64e4295d0 in __libc_start_call_main () from /lib64/libc.so.6
-#45 0x00007fa64e429680 in __libc_start_main_impl () from /lib64/libc.so.6
-#46 0x0000000000401075 in _start ()
-===========================================================
-
-
-The lines below might hint at the cause of the crash. If you see question
-marks as part of the stack trace, try to recompile with debugging information
-enabled and export CLING_DEBUG=1 environment variable before running.
-You may get help by asking at the ROOT forum https://root.cern/forum
-preferably using the command (.forum bug) in the ROOT prompt.
-Only if you are really convinced it is a bug in ROOT then please submit a
-report at https://root.cern/bugs or (preferably) using the command (.gh bug) in
-the ROOT prompt. Please post the ENTIRE stack trace
-from above as an attachment in addition to anything else
-that might help us fixing this issue.
-===========================================================
-#6  0x00007fa64e48ba6c in __pthread_kill_implementation () from /lib64/libc.so.6
-#7  0x00007fa64e43e686 in raise () from /lib64/libc.so.6
-#8  0x00007fa64e428833 in abort () from /lib64/libc.so.6
-#9  0x00007fa64c6a4bab in ?? () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#10 0x00007fa64c6b40da in ?? () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#11 0x00007fa64c6b4145 in std::terminate() () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#12 0x00007fa64c6b4397 in __cxa_throw () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#13 0x00007fa604581aff in IncidentSvc::i_fireIncident(Incident const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .cold] () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#14 0x00007fa604668ed1 in virtual thunk to IncidentSvc::fireIncident(Incident const&) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#15 0x00007fa5ffc4bb88 in AthenaEventLoopMgr::executeEvent(EventContext&&) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#16 0x00007fa5ffc49fd0 in AthenaEventLoopMgr::nextEvent(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#17 0x00007fa5ffc4563d in AthenaEventLoopMgr::executeRun(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#18 0x00007fa6045a81b5 in ApplicationMgr::executeRun(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#19 0x00007fa62ea81fd6 in py_bootstrap_app_run () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiKernel.so
-#20 0x00007fa64de5d052 in ffi_call_unix64 () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/libffi/3.4.2/x86_64-el9-gcc13-opt/lib64/libffi.so.8
-#21 0x00007fa64de5bc79 in ffi_call_int () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/libffi/3.4.2/x86_64-el9-gcc13-opt/lib64/libffi.so.8
-#22 0x00007fa64de0f0b1 in _call_function_pointer (argtypecount=<optimized out>, argcount=<optimized out>, resmem=0x7ffc506f1b70, restype=<optimized out>, atypes=<optimized out>, avalues=0x7ffc506f1b50, pProc=0x7fa62ea81f70 <py_bootstrap_app_run>, flags=4357) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/callproc.c:923
-#23 _ctypes_callproc (pProc=pProc
-entry=0x7fa62ea81f70 <py_bootstrap_app_run>, argtuple=argtuple
-entry=0x7fa604ce8a00, flags=4357, argtypes=argtypes
-entry=0x7fa6050e8200, restype=<optimized out>, checker=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/callproc.c:1262
-#24 0x00007fa64de09d77 in PyCFuncPtr_call (self=<optimized out>, inargs=<optimized out>, kwds=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/_ctypes.c:4201
-#25 0x00007fa64e95855d in _PyObject_MakeTpCall (tstate=0x7fa64ed7a678 <_PyRuntime+166328>, callable=callable
-entry=0x7fa604cf98b0, args=args
-entry=0x7fa64edda388, nargs=2, keywords=keywords
-entry=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/call.c:214
-#26 0x00007fa64e958b1f in _PyObject_VectorcallTstate (kwnames=0x0, nargsf=<optimized out>, args=0x7fa64edda388, callable=0x7fa604cf98b0, tstate=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_call.h:90
-#27 0x00007fa64e8fd86f in _PyEval_EvalFrameDefault (tstate=<optimized out>, frame=<optimized out>, throwflag=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:4769
-#28 0x00007fa64ea4f754 in _PyEval_EvalFrame (throwflag=0, frame=0x7fa64edda1b8, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_ceval.h:73
-#29 _PyEval_Vector (args=0x0, argcount=0, kwnames=0x0, locals=0x7fa64e26d6c0, func=0x7fa64e398e00, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:6434
-#30 PyEval_EvalCode (co=co
-entry=0x1821b50, globals=globals
-entry=0x7fa64e26d6c0, locals=locals
-entry=0x7fa64e26d6c0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:1148
-#31 0x00007fa64ea4a620 in builtin_exec_impl (module=<optimized out>, closure=<optimized out>, locals=0x7fa64e26d6c0, globals=0x7fa64e26d6c0, source=0x1821b50) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/bltinmodule.c:1077
-#32 builtin_exec (module=<optimized out>, args=<optimized out>, nargs=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/clinic/bltinmodule.c.h:465
-#33 0x00007fa64e9a78f2 in cfunction_vectorcall_FASTCALL_KEYWORDS (func=0x7fa64e388f90, args=0x7fa64edda180, nargsf=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/methodobject.c:443
-#34 0x00007fa64e958ae3 in _PyObject_VectorcallTstate (kwnames=0x7fa64ea4f754 <PyEval_EvalCode+548>, nargsf=<optimized out>, args=0x7fa64edda180, callable=0x7fa64e388f90, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_call.h:92
-#35 PyObject_Vectorcall (callable=callable
-entry=0x7fa64e388f90, args=args
-entry=0x7fa64edda180, nargsf=<optimized out>, kwnames=kwnames
-entry=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/call.c:299
-#36 0x00007fa64e8fd86f in _PyEval_EvalFrameDefault (tstate=<optimized out>, frame=<optimized out>, throwflag=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:4769
-#37 0x00007fa64ea4f8b0 in _PyEval_EvalFrame (throwflag=0, frame=0x7fa64edda020, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_ceval.h:73
-#38 _PyEval_Vector (tstate=0x7fa64ed7a678 <_PyRuntime+166328>, func=<optimized out>, locals=<optimized out>, args=<optimized out>, argcount=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:6434
-#39 0x00007fa64eab90fc in pymain_run_module (modname=<optimized out>, set_argv0=set_argv0
-entry=1) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:300
-#40 0x00007fa64eab991a in pymain_run_python (exitcode=0x7ffc506f21f4) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:595
-#41 Py_RunMain () at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:680
-#42 0x00007fa64eaba117 in pymain_main (args=0x7ffc506f2300) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:710
-#43 Py_BytesMain (argc=<optimized out>, argv=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:734
-#44 0x00007fa64e4295d0 in __libc_start_call_main () from /lib64/libc.so.6
-#45 0x00007fa64e429680 in __libc_start_main_impl () from /lib64/libc.so.6
-#46 0x0000000000401075 in _start ()
-===========================================================
-
-
- *** Break *** abort
-
-
-
-===========================================================
-There was a crash.
-This is the entire stack trace of all threads:
-===========================================================
-
-Thread 17 (Thread 0x7fa5f6fdd640 (LWP 3357527) "cuda-EvtHandlr"):
-#0  0x00007fa64e501aff in poll () from /lib64/libc.so.6
-#1  0x00007fa5f8a761ef in ?? () from /lib64/libcuda.so.1
-#2  0x00007fa5f8b3a67f in ?? () from /lib64/libcuda.so.1
-#3  0x00007fa5f8a6dee3 in ?? () from /lib64/libcuda.so.1
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 16 (Thread 0x7fa5f87ff640 (LWP 3357526) "cuda0000b80002f"):
-#0  0x00007fa64e501aff in poll () from /lib64/libc.so.6
-#1  0x00007fa5f8a761ef in ?? () from /lib64/libcuda.so.1
-#2  0x00007fa5f8b3a67f in ?? () from /lib64/libcuda.so.1
-#3  0x00007fa5f8a6dee3 in ?? () from /lib64/libcuda.so.1
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 15 (Thread 0x7fa625156640 (LWP 3357125) "python"):
-#0  0x00007fa64e4868ba in __futex_abstimed_wait_common () from /lib64/libc.so.6
-#1  0x00007fa64e491d68 in __new_sem_wait_slow64.constprop.0 () from /lib64/libc.so.6
-#2  0x00007fa62bd88406 in XrdSysSemaphore::Wait (this=0x9eb3660) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.hh:509
-#3  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x9e8d128) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClSyncQueue.hh:66
-#4  XrdCl::JobManager::RunJobs (this=0x9e8d110) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:151
-#5  0x00007fa62bd884b9 in RunRunnerThread (arg=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:34
-#6  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#7  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 14 (Thread 0x7fa625957640 (LWP 3357124) "python"):
-#0  0x00007fa64e4868ba in __futex_abstimed_wait_common () from /lib64/libc.so.6
-#1  0x00007fa64e491d68 in __new_sem_wait_slow64.constprop.0 () from /lib64/libc.so.6
-#2  0x00007fa62bd88406 in XrdSysSemaphore::Wait (this=0x9eb3660) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.hh:509
-#3  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x9e8d128) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClSyncQueue.hh:66
-#4  XrdCl::JobManager::RunJobs (this=0x9e8d110) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:151
-#5  0x00007fa62bd884b9 in RunRunnerThread (arg=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:34
-#6  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#7  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 13 (Thread 0x7fa626158640 (LWP 3357123) "python"):
-#0  0x00007fa64e4868ba in __futex_abstimed_wait_common () from /lib64/libc.so.6
-#1  0x00007fa64e491d68 in __new_sem_wait_slow64.constprop.0 () from /lib64/libc.so.6
-#2  0x00007fa62bd88406 in XrdSysSemaphore::Wait (this=0x9eb3660) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.hh:509
-#3  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x9e8d128) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClSyncQueue.hh:66
-#4  XrdCl::JobManager::RunJobs (this=0x9e8d110) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:151
-#5  0x00007fa62bd884b9 in RunRunnerThread (arg=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClJobManager.cc:34
-#6  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#7  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 12 (Thread 0x7fa626959640 (LWP 3357122) "python"):
-#0  0x00007fa64e4d4175 in clock_nanosleep
-GLIBC_2.2.5 () from /lib64/libc.so.6
-#1  0x00007fa64e4d8d87 in nanosleep () from /lib64/libc.so.6
-#2  0x00007fa62c5307e8 in XrdSysTimer::Wait (mills=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysTimer.cc:239
-#3  0x00007fa62bd06df6 in XrdCl::TaskManager::RunTasks (this=0x9e7b0a0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClTaskManager.cc:246
-#4  0x00007fa62bd06ef9 in RunRunnerThread (arg=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdCl/XrdClTaskManager.cc:38
-#5  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#6  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 11 (Thread 0x7fa62715a640 (LWP 3357121) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9f59190, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9e8b5e0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 10 (Thread 0x7fa62795b640 (LWP 3357120) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9e8b440, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9e82ed0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 9 (Thread 0x7fa62815c640 (LWP 3357119) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9e90ab0, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9eb4570) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 8 (Thread 0x7fa62895d640 (LWP 3357117) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9da2080, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9ebcbd0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 7 (Thread 0x7fa62915e640 (LWP 3357116) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9ea9840, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9ea9a30) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 6 (Thread 0x7fa62995f640 (LWP 3357115) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9cc8c10, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9eb57a0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 5 (Thread 0x7fa62a160640 (LWP 3357114) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9ea7ab0, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9eb29c0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 4 (Thread 0x7fa62a961640 (LWP 3357113) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9f1f380, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9e524b0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 3 (Thread 0x7fa62b162640 (LWP 3357112) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9ea9960, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9f237f0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 2 (Thread 0x7fa62b963640 (LWP 3357111) "python"):
-#0  0x00007fa64e50e37e in epoll_wait () from /lib64/libc.so.6
-#1  0x00007fa62c52adca in XrdSys::IOEvents::PollE::Begin (this=0x9f22780, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEventsPollE.icc:211
-#2  0x00007fa62c526f5d in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc506efdf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysIOEvents.cc:149
-#3  0x00007fa62c52fef7 in XrdSysThread_Xeq (myargs=0x9ebcaf0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/xrootd-5.7.1/src/xrootd/5.7.1/src/XrdSys/XrdSysPthread.cc:86
-#4  0x00007fa64e489d22 in start_thread () from /lib64/libc.so.6
-#5  0x00007fa64e50ed40 in clone3 () from /lib64/libc.so.6
-
-Thread 1 (Thread 0x7fa64edc0480 (LWP 3356520) "python"):
-#0  0x00007fa64e4d8b3f in wait4 () from /lib64/libc.so.6
-#1  0x00007fa64e44b283 in do_system () from /lib64/libc.so.6
-#2  0x00007fa64c313fcb in TUnixSystem::StackTrace() () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/ROOT/6.32.06/x86_64-el9-gcc13-opt/lib/libCore.so
-#3  0x00007fa64c9e4483 in (anonymous namespace)::TExceptionHandlerImp::HandleException(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/ROOT/6.32.06/x86_64-el9-gcc13-opt/lib/libcppyy_backend.so
-#4  0x00007fa64c3137f1 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/ROOT/6.32.06/x86_64-el9-gcc13-opt/lib/libCore.so
-#5  <signal handler called>
-#6  0x00007fa64e48ba6c in __pthread_kill_implementation () from /lib64/libc.so.6
-#7  0x00007fa64e43e686 in raise () from /lib64/libc.so.6
-#8  0x00007fa64e428833 in abort () from /lib64/libc.so.6
-#9  0x00007fa64c6a4bab in ?? () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#10 0x00007fa64c6b40da in ?? () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#11 0x00007fa64c6b4145 in std::terminate() () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#12 0x00007fa64c6b4397 in __cxa_throw () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#13 0x00007fa604581aff in IncidentSvc::i_fireIncident(Incident const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .cold] () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#14 0x00007fa604668ed1 in virtual thunk to IncidentSvc::fireIncident(Incident const&) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#15 0x00007fa5ffc4bb88 in AthenaEventLoopMgr::executeEvent(EventContext&&) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#16 0x00007fa5ffc49fd0 in AthenaEventLoopMgr::nextEvent(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#17 0x00007fa5ffc4563d in AthenaEventLoopMgr::executeRun(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#18 0x00007fa6045a81b5 in ApplicationMgr::executeRun(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#19 0x00007fa62ea81fd6 in py_bootstrap_app_run () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiKernel.so
-#20 0x00007fa64de5d052 in ffi_call_unix64 () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/libffi/3.4.2/x86_64-el9-gcc13-opt/lib64/libffi.so.8
-#21 0x00007fa64de5bc79 in ffi_call_int () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/libffi/3.4.2/x86_64-el9-gcc13-opt/lib64/libffi.so.8
-#22 0x00007fa64de0f0b1 in _call_function_pointer (argtypecount=<optimized out>, argcount=<optimized out>, resmem=0x7ffc506f1b70, restype=<optimized out>, atypes=<optimized out>, avalues=0x7ffc506f1b50, pProc=0x7fa62ea81f70 <py_bootstrap_app_run>, flags=4357) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/callproc.c:923
-#23 _ctypes_callproc (pProc=pProc
-entry=0x7fa62ea81f70 <py_bootstrap_app_run>, argtuple=argtuple
-entry=0x7fa604ce8a00, flags=4357, argtypes=argtypes
-entry=0x7fa6050e8200, restype=<optimized out>, checker=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/callproc.c:1262
-#24 0x00007fa64de09d77 in PyCFuncPtr_call (self=<optimized out>, inargs=<optimized out>, kwds=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/_ctypes.c:4201
-#25 0x00007fa64e95855d in _PyObject_MakeTpCall (tstate=0x7fa64ed7a678 <_PyRuntime+166328>, callable=callable
-entry=0x7fa604cf98b0, args=args
-entry=0x7fa64edda388, nargs=2, keywords=keywords
-entry=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/call.c:214
-#26 0x00007fa64e958b1f in _PyObject_VectorcallTstate (kwnames=0x0, nargsf=<optimized out>, args=0x7fa64edda388, callable=0x7fa604cf98b0, tstate=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_call.h:90
-#27 0x00007fa64e8fd86f in _PyEval_EvalFrameDefault (tstate=<optimized out>, frame=<optimized out>, throwflag=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:4769
-#28 0x00007fa64ea4f754 in _PyEval_EvalFrame (throwflag=0, frame=0x7fa64edda1b8, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_ceval.h:73
-#29 _PyEval_Vector (args=0x0, argcount=0, kwnames=0x0, locals=0x7fa64e26d6c0, func=0x7fa64e398e00, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:6434
-#30 PyEval_EvalCode (co=co
-entry=0x1821b50, globals=globals
-entry=0x7fa64e26d6c0, locals=locals
-entry=0x7fa64e26d6c0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:1148
-#31 0x00007fa64ea4a620 in builtin_exec_impl (module=<optimized out>, closure=<optimized out>, locals=0x7fa64e26d6c0, globals=0x7fa64e26d6c0, source=0x1821b50) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/bltinmodule.c:1077
-#32 builtin_exec (module=<optimized out>, args=<optimized out>, nargs=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/clinic/bltinmodule.c.h:465
-#33 0x00007fa64e9a78f2 in cfunction_vectorcall_FASTCALL_KEYWORDS (func=0x7fa64e388f90, args=0x7fa64edda180, nargsf=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/methodobject.c:443
-#34 0x00007fa64e958ae3 in _PyObject_VectorcallTstate (kwnames=0x7fa64ea4f754 <PyEval_EvalCode+548>, nargsf=<optimized out>, args=0x7fa64edda180, callable=0x7fa64e388f90, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_call.h:92
-#35 PyObject_Vectorcall (callable=callable
-entry=0x7fa64e388f90, args=args
-entry=0x7fa64edda180, nargsf=<optimized out>, kwnames=kwnames
-entry=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/call.c:299
-#36 0x00007fa64e8fd86f in _PyEval_EvalFrameDefault (tstate=<optimized out>, frame=<optimized out>, throwflag=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:4769
-#37 0x00007fa64ea4f8b0 in _PyEval_EvalFrame (throwflag=0, frame=0x7fa64edda020, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_ceval.h:73
-#38 _PyEval_Vector (tstate=0x7fa64ed7a678 <_PyRuntime+166328>, func=<optimized out>, locals=<optimized out>, args=<optimized out>, argcount=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:6434
-#39 0x00007fa64eab90fc in pymain_run_module (modname=<optimized out>, set_argv0=set_argv0
-entry=1) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:300
-#40 0x00007fa64eab991a in pymain_run_python (exitcode=0x7ffc506f21f4) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:595
-#41 Py_RunMain () at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:680
-#42 0x00007fa64eaba117 in pymain_main (args=0x7ffc506f2300) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:710
-#43 Py_BytesMain (argc=<optimized out>, argv=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:734
-#44 0x00007fa64e4295d0 in __libc_start_call_main () from /lib64/libc.so.6
-#45 0x00007fa64e429680 in __libc_start_main_impl () from /lib64/libc.so.6
-#46 0x0000000000401075 in _start ()
-===========================================================
-
-
-The lines below might hint at the cause of the crash. If you see question
-marks as part of the stack trace, try to recompile with debugging information
-enabled and export CLING_DEBUG=1 environment variable before running.
-You may get help by asking at the ROOT forum https://root.cern/forum
-preferably using the command (.forum bug) in the ROOT prompt.
-Only if you are really convinced it is a bug in ROOT then please submit a
-report at https://root.cern/bugs or (preferably) using the command (.gh bug) in
-the ROOT prompt. Please post the ENTIRE stack trace
-from above as an attachment in addition to anything else
-that might help us fixing this issue.
-===========================================================
-#6  0x00007fa64e48ba6c in __pthread_kill_implementation () from /lib64/libc.so.6
-#7  0x00007fa64e43e686 in raise () from /lib64/libc.so.6
-#8  0x00007fa64e428833 in abort () from /lib64/libc.so.6
-#9  0x00007fa64c6a4bab in ?? () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#10 0x00007fa64c6b40da in ?? () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#11 0x00007fa64c6b4145 in std::terminate() () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#12 0x00007fa64c6b4397 in __cxa_throw () from /cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/lib64/libstdc++.so
-#13 0x00007fa604581aff in IncidentSvc::i_fireIncident(Incident const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .cold] () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#14 0x00007fa604668ed1 in virtual thunk to IncidentSvc::fireIncident(Incident const&) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#15 0x00007fa5ffc4bb88 in AthenaEventLoopMgr::executeEvent(EventContext&&) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#16 0x00007fa5ffc49fd0 in AthenaEventLoopMgr::nextEvent(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#17 0x00007fa5ffc4563d in AthenaEventLoopMgr::executeRun(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/Athena/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libAthenaServices.so
-#18 0x00007fa6045a81b5 in ApplicationMgr::executeRun(int) () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiCoreSvc.so
-#19 0x00007fa62ea81fd6 in py_bootstrap_app_run () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/AthenaExternals/25.0.22/InstallArea/x86_64-el9-gcc13-opt/lib/libGaudiKernel.so
-#20 0x00007fa64de5d052 in ffi_call_unix64 () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/libffi/3.4.2/x86_64-el9-gcc13-opt/lib64/libffi.so.8
-#21 0x00007fa64de5bc79 in ffi_call_int () from /cvmfs/atlas.cern.ch/repo/sw/software/25.0/sw/lcg/releases/LCG_106a_ATLAS_5/libffi/3.4.2/x86_64-el9-gcc13-opt/lib64/libffi.so.8
-#22 0x00007fa64de0f0b1 in _call_function_pointer (argtypecount=<optimized out>, argcount=<optimized out>, resmem=0x7ffc506f1b70, restype=<optimized out>, atypes=<optimized out>, avalues=0x7ffc506f1b50, pProc=0x7fa62ea81f70 <py_bootstrap_app_run>, flags=4357) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/callproc.c:923
-#23 _ctypes_callproc (pProc=pProc
-entry=0x7fa62ea81f70 <py_bootstrap_app_run>, argtuple=argtuple
-entry=0x7fa604ce8a00, flags=4357, argtypes=argtypes
-entry=0x7fa6050e8200, restype=<optimized out>, checker=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/callproc.c:1262
-#24 0x00007fa64de09d77 in PyCFuncPtr_call (self=<optimized out>, inargs=<optimized out>, kwds=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/_ctypes/_ctypes.c:4201
-#25 0x00007fa64e95855d in _PyObject_MakeTpCall (tstate=0x7fa64ed7a678 <_PyRuntime+166328>, callable=callable
-entry=0x7fa604cf98b0, args=args
-entry=0x7fa64edda388, nargs=2, keywords=keywords
-entry=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/call.c:214
-#26 0x00007fa64e958b1f in _PyObject_VectorcallTstate (kwnames=0x0, nargsf=<optimized out>, args=0x7fa64edda388, callable=0x7fa604cf98b0, tstate=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_call.h:90
-#27 0x00007fa64e8fd86f in _PyEval_EvalFrameDefault (tstate=<optimized out>, frame=<optimized out>, throwflag=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:4769
-#28 0x00007fa64ea4f754 in _PyEval_EvalFrame (throwflag=0, frame=0x7fa64edda1b8, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_ceval.h:73
-#29 _PyEval_Vector (args=0x0, argcount=0, kwnames=0x0, locals=0x7fa64e26d6c0, func=0x7fa64e398e00, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:6434
-#30 PyEval_EvalCode (co=co
-entry=0x1821b50, globals=globals
-entry=0x7fa64e26d6c0, locals=locals
-entry=0x7fa64e26d6c0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:1148
-#31 0x00007fa64ea4a620 in builtin_exec_impl (module=<optimized out>, closure=<optimized out>, locals=0x7fa64e26d6c0, globals=0x7fa64e26d6c0, source=0x1821b50) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/bltinmodule.c:1077
-#32 builtin_exec (module=<optimized out>, args=<optimized out>, nargs=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/clinic/bltinmodule.c.h:465
-#33 0x00007fa64e9a78f2 in cfunction_vectorcall_FASTCALL_KEYWORDS (func=0x7fa64e388f90, args=0x7fa64edda180, nargsf=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/methodobject.c:443
-#34 0x00007fa64e958ae3 in _PyObject_VectorcallTstate (kwnames=0x7fa64ea4f754 <PyEval_EvalCode+548>, nargsf=<optimized out>, args=0x7fa64edda180, callable=0x7fa64e388f90, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_call.h:92
-#35 PyObject_Vectorcall (callable=callable
-entry=0x7fa64e388f90, args=args
-entry=0x7fa64edda180, nargsf=<optimized out>, kwnames=kwnames
-entry=0x0) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Objects/call.c:299
-#36 0x00007fa64e8fd86f in _PyEval_EvalFrameDefault (tstate=<optimized out>, frame=<optimized out>, throwflag=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:4769
-#37 0x00007fa64ea4f8b0 in _PyEval_EvalFrame (throwflag=0, frame=0x7fa64edda020, tstate=0x7fa64ed7a678 <_PyRuntime+166328>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Include/internal/pycore_ceval.h:73
-#38 _PyEval_Vector (tstate=0x7fa64ed7a678 <_PyRuntime+166328>, func=<optimized out>, locals=<optimized out>, args=<optimized out>, argcount=<optimized out>, kwnames=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Python/ceval.c:6434
-#39 0x00007fa64eab90fc in pymain_run_module (modname=<optimized out>, set_argv0=set_argv0
-entry=1) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:300
-#40 0x00007fa64eab991a in pymain_run_python (exitcode=0x7ffc506f21f4) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:595
-#41 Py_RunMain () at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:680
-#42 0x00007fa64eaba117 in pymain_main (args=0x7ffc506f2300) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:710
-#43 Py_BytesMain (argc=<optimized out>, argv=<optimized out>) at /build/jenkins/workspace/lcg_release_pipeline/build/externals/Python-3.11.9/src/Python/3.11.9/Modules/main.c:734
-#44 0x00007fa64e4295d0 in __libc_start_call_main () from /lib64/libc.so.6
-#45 0x00007fa64e429680 in __libc_start_main_impl () from /lib64/libc.so.6
-#46 0x0000000000401075 in _start ()
-===========================================================
-
-
+DbSession                                            INFO     Open     DbSession    
+Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All] 
+Domain[ROOT_All]                                     INFO ->  Access   DbDatabase   READ      [ROOT_All] EACFEBD4-9BD2-E211-848A-02163E006B20
+Domain[ROOT_All]                                     INFO                           /cvmfs/atlas-condb.cern.ch/repo/conditions/cond09/cond09_mc.000057.gen.COND/cond09_mc.000057.gen.COND._0001.pool.root
+RootDatabase.open                                    INFO /cvmfs/atlas-condb.cern.ch/repo/conditions/cond09/cond09_mc.000057.gen.COND/cond09_mc.000057.gen.COND._0001.pool.root File version:52200
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #1, run #1 0 events processed so far  <<<===
+IOVDbSvc                                             INFO Opening COOL connection for COOLOFL_INDET/OFLP200
+IOVDbFolder                                          INFO HVS tag OFLCOND-MC15c-SDR-14-05 resolved to InDetAlign_MC15c for folder /Indet/Align
+IOVDbSvc                                             INFO Disconnecting from COOLOFL_INDET/OFLP200
+Domain[ROOT_All]                                     INFO ->  Access   DbDatabase   READ      [ROOT_All] D0709FD7-6A55-E011-925D-002481043EC0
+Domain[ROOT_All]                                     INFO                           /cvmfs/atlas-condb.cern.ch/repo/conditions/cond09/cond09_mc.000029.gen.COND/cond09_mc.000029.gen.COND._0001.pool.root
+RootDatabase.open                                    INFO /cvmfs/atlas-condb.cern.ch/repo/conditions/cond09/cond09_mc.000029.gen.COND/cond09_mc.000029.gen.COND._0001.pool.root File version:52600
+Domain[ROOT_All]                                     INFO ->  Access   DbDatabase   READ      [ROOT_All] 8667C6F2-1559-DE11-A611-000423D9A21A
+Domain[ROOT_All]                                     INFO                           /cvmfs/atlas-condb.cern.ch/repo/conditions/cond08/cond08_mc.000003.gen.COND/cond08_mc.000003.gen.COND._0064.pool.root
+RootDatabase.open                                    INFO /cvmfs/atlas-condb.cern.ch/repo/conditions/cond08/cond08_mc.000003.gen.COND/cond08_mc.000003.gen.COND._0064.pool.root File version:52200
+IOVDbSvc                                             INFO Opening COOL connection for COOLOFL_DCS/OFLP200
+IOVDbFolder                                          INFO HVS tag OFLCOND-MC15c-SDR-14-05 resolved to ExtDCSMagnetsSensorData-001 for folder /EXT/DCS/MAGNETS/SENSORDATA
+IOVDbSvc                                             INFO Disconnecting from COOLOFL_DCS/OFLP200
+IOVDbSvc                                             INFO Opening COOL connection for COOLOFL_GLOBAL/OFLP200
+IOVDbFolder                                          INFO HVS tag OFLCOND-MC15c-SDR-14-05 resolved to BFieldMap-Run1-14m-v01 for folder /GLOBAL/BField/Maps
+IOVDbSvc                                             INFO Disconnecting from COOLOFL_GLOBAL/OFLP200
+ITkPixelAlignCondAlg                                 INFO recorded new CDO ITkPixelAlignmentStore with range {[INVALID] - [1,l:4294967294]} into Conditions Store
+ITkPixelDetectorElementCondAlg                       INFO recorded new CDO ITkPixelDetectorElementCollection with range {[0,t:0,l:0] - [1,t:4294967294.4294967294,l:4294967294]} with size of 9164 into Conditions Store
+LArAlignCondAlg                                      INFO recorded new GeoAlignmentStore object for LAr with key LArAlignmentStore and range {[0,l:0] - [177530,l:0]}
+CaloIdMgrDetDescrCnv                                 INFO in createObj: creating a CaloDescrManager object in the detector store
+ClassIDSvc                                           INFO getRegistryEntries: read 939 CLIDRegistry entries for module ALL
+CaloDM_ID                                            INFO initialize_from_dictionary
+AtlasDetectorID                                      INFO initialize_from_dictionary - OK
+CaloLVL1_ID                                          INFO initialize_from_dictionary
+AtlasDetectorID                                      INFO initialize_from_dictionary - OK
+TTOnlineID                                           INFO initialize_from_dictionary
+AtlasDetectorID                                      INFO initialize_from_dictionary - OK
+CaloAlignCondAlg                                     INFO recorded new CaloDetDescr Manager condition object with key CaloDetDescrManager and range {[0,l:0] - [177530,l:0]}
+CaloSuperCellAlignCondAlg                            INFO recorded new CaloSuperCellDetDescr Manager condition object with key CaloSuperCellDetDescrManager and range {[0,l:0] - [177530,l:0]}
+ITkStripAlignCondAlg                                 INFO recorded new CDO ITkStripAlignmentStore with range {[INVALID] - [1,l:4294967294]} into Conditions Store
+ITkStripDetectorElementCondAlg                       INFO recorded new CDO ITkStripDetectorElementCollection with range {[0,t:0,l:0] - [1,t:4294967294.4294967294,l:4294967294]} with size of 49536 into Conditions Store
+HGTD_DetectorElementCondAlg                          INFO recorded new CDO HGTD_DetectorElementCollection with range {[0,t:0,l:0] - [4294967294,t:4294967294.4294967294,l:4294967294]} with size of 8032 into Conditions Store
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: Update map from conditions
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: Update map from conditions: Range of input/output is {[0,l:0] - [INVALID]}
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: reading magnetic field map filenames from COOL
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: found map of type GlobalMap with soleCur=7730 toroCur=20400 (path file:MagneticFieldMaps/bfieldmap_7730_20400_14m.root)
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: found map of type SolenoidMap with soleCur=7730 toroCur=0 (path file:MagneticFieldMaps/bfieldmap_7730_0_14m.root)
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: found map of type ToroidMap with soleCur=0 toroCur=20400 (path file:MagneticFieldMaps/bfieldmap_0_20400_14m.root)
+AtlasFieldMapCondAlg                                 INFO checkCurrentFromConditions: Range of input currents is {[t:0] - [t:4294967294.854775807]}
+AtlasFieldMapCondAlg                                 INFO checkCurrentFromConditions: Attempt 1 at reading currents from DCS (using channel name)
+AtlasFieldMapCondAlg                                 INFO checkCurrentFromConditions: Trying to read from DCS: [channel name, index, value] CentralSol_Current , 1 , 7730
+AtlasFieldMapCondAlg                                 INFO checkCurrentFromConditions: Trying to read from DCS: [channel name, index, value] CentralSol_SCurrent , 2 , 7730
+AtlasFieldMapCondAlg                                 INFO checkCurrentFromConditions: Trying to read from DCS: [channel name, index, value] Toroids_Current , 3 , 20400
+AtlasFieldMapCondAlg                                 INFO checkCurrentFromConditions: Trying to read from DCS: [channel name, index, value] Toroids_SCurrent , 4 , 20400
+AtlasFieldMapCondAlg                                 INFO checkCurrentFromConditions: Currents read from DCS - solenoid 7730 toroid 20400
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: currents are OK, will use nominal maps
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: found TagInfoMgr 
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: DID NOT reset currents from TagInfo
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: Set map currents from FieldSvc: solenoid/toroid 7730,20400
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: Use map file MagneticFieldMaps/bfieldmap_7730_20400_14m.root
+AtlasFieldMapCondAlg                                 INFO updateFieldMap: Initialized the field map from /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/MagneticFieldMaps/bfieldmap_7730_20400_14m.root
+AtlasFieldMapCondAlg                                 INFO execute: solenoid zone id  7000
+AtlasFieldMapCondAlg                                 INFO execute: recorded AtlasFieldMapCondObj with EventRange {[0,l:0] - [INVALID]}
+AtlasFieldCacheCondAlg                               INFO UpdateCurrentFromConditions: Range of input/output is {[t:0] - [t:4294967294.854775807]}
+AtlasFieldCacheCondAlg                               INFO UpdateCurrentFromConditions: Attempt 1 at reading currents from DCS (using channel name)
+AtlasFieldCacheCondAlg                               INFO UpdateCurrentFromConditions: Trying to read from DCS: [channel name, index, value] CentralSol_Current , 1 , 7730
+AtlasFieldCacheCondAlg                               INFO UpdateCurrentFromConditions: Trying to read from DCS: [channel name, index, value] CentralSol_SCurrent , 2 , 7730
+AtlasFieldCacheCondAlg                               INFO UpdateCurrentFromConditions: Trying to read from DCS: [channel name, index, value] Toroids_Current , 3 , 20400
+AtlasFieldCacheCondAlg                               INFO UpdateCurrentFromConditions: Trying to read from DCS: [channel name, index, value] Toroids_SCurrent , 4 , 20400
+AtlasFieldCacheCondAlg                               INFO UpdateCurrentFromConditions: Currents read from DCS - solenoid 7730 toroid 20400
+AtlasFieldCacheCondAlg                               INFO scaleField: Solenoid field scale factor 1. Desired current and map current: 7730,7730
+AtlasFieldCacheCondAlg                               INFO scaleField: Toroid field scale factor 1. Desired current and map current: 20400,20400
+AtlasFieldCacheCondAlg                               INFO execute: initialized AtlasFieldCacheCondObj and cache with SFs - sol/tor 1/1, EventRange {[t:0] - [t:4294967294.854775807]}
+AtlasFieldCacheCondAlg                               INFO execute: solenoid zone id  7000
+TrackingAlg.TrackingHitInputTool                     INFO Reading pixel clusters
+VarHandle(StoreGateSvc+ITkPixelClusters[2560])    WARNING StoreGate/src/VarHandleBase.cxx:838 (void*SG::VarHandleBase::typeless_dataPointer_impl(bool)): could not get proxy for key ITkPixelClusters
+TrackingAlg                                         FATAL Standard std::exception is caught in sysExecute
+TrackingAlg                                         ERROR SG::ExcNullReadHandle: Dereference of read handle failed: StoreGateSvc_Impl+ITkPixelClusters[2560]
+TrackingAlg                                         ERROR Maximum number of errors ( 'ErrorMax':1) reached.
+AthAlgSeq                                            INFO execute of [TrackingAlg] did NOT succeed
+AthAlgSeq                                           ERROR Maximum number of errors ( 'ErrorMax':1) reached.
+AthAllAlgSeq                                         INFO execute of [AthAlgSeq] did NOT succeed
+AthAllAlgSeq                                        ERROR Maximum number of errors ( 'ErrorMax':1) reached.
+AthAlgEvtSeq                                         INFO execute of [AthAllAlgSeq] did NOT succeed
+AthAlgEvtSeq                                        ERROR Maximum number of errors ( 'ErrorMax':1) reached.
+AthMasterSeq                                         INFO execute of [AthAlgEvtSeq] did NOT succeed
+AthMasterSeq                                        ERROR Maximum number of errors ( 'ErrorMax':1) reached.
+AthenaEventLoopMgr                                   INFO Execution of algorithm AthMasterSeq failed with StatusCode::FAILURE
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #1, run #1 1 events processed so far  <<<===
+AthenaEventLoopMgr                                  ERROR Terminating event processing loop due to errors
+Py:ComponentAccumulator   ERROR Failure running application
