@@ -1,0 +1,160 @@
+{
+    "acts-geometry-hierarchy-map": {
+        "format-version": 0,
+        "value-identifier": "digitization-configuration"
+    },
+    "entries": [
+        {
+            "approach": 68,
+            "boundary": 49,
+            "extra": 127,
+            "sensitive": 524323,
+            "value": {
+                "geometric": {
+                    "segmentation": {
+                        "binningdata": [
+                            {
+                                "bins": 768,
+                                "max": 19.299999237060547,
+                                "min": -19.299999237060547,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binX"
+                            },
+                            {
+                                "bins": 1,
+                                "max": 1.0,
+                                "min": -1.0,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binY"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "approach": 69,
+            "boundary": 49,
+            "extra": 191,
+            "sensitive": 35,
+            "value": {
+                "geometric": {
+                    "segmentation": {
+                        "binningdata": [
+                            {
+                                "bins": 768,
+                                "max": 19.299999237060547,
+                                "min": -19.299999237060547,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binX"
+                            },
+                            {
+                                "bins": 1,
+                                "max": 1.0,
+                                "min": -1.0,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binY"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "approach": 69,
+            "boundary": 49,
+            "extra": 255,
+            "sensitive": 524323,
+            "value": {
+                "geometric": {
+                    "segmentation": {
+                        "binningdata": [
+                            {
+                                "bins": 768,
+                                "max": 19.299999237060547,
+                                "min": -19.299999237060547,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binX"
+                            },
+                            {
+                                "bins": 1,
+                                "max": 1.0,
+                                "min": -1.0,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binY"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "approach": 70,
+            "boundary": 49,
+            "extra": 63,
+            "sensitive": 36,
+            "value": {
+                "geometric": {
+                    "segmentation": {
+                        "binningdata": [
+                            {
+                                "bins": 768,
+                                "max": 19.299999237060547,
+                                "min": -19.299999237060547,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binX"
+                            },
+                            {
+                                "bins": 1,
+                                "max": 1.0,
+                                "min": -1.0,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binY"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "approach": 70,
+            "boundary": 49,
+            "extra": 127,
+            "sensitive": 524324,
+            "value": {
+                "geometric": {
+                    "segmentation": {
+                        "binningdata": [
+                            {
+                                "bins": 768,
+                                "max": 19.299999237060547,
+                                "min": -19.299999237060547,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binX"
+                            },
+                            {
+                                "bins": 1,
+                                "max": 1.0,
+                                "min": -1.0,
+                                "option": "open",
+                                "type": "equidistant",
+                                "value": "binY"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "approach": 71,
+            "boundary": 49,
+            "extra": 191,
