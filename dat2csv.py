@@ -67,7 +67,9 @@ def read_binary_data(binary_file, start_offset, ele_offsets):
     return df
 
 # Configuration
-binary_file = "test_measurements/event000000001-measurements.dat"
+# binary_file = "test_measurements/event000000001-measurements.dat"
+binary_file = "/eos/user/j/jlai/Traccc/traccc/data/output/event000000000-measurements.dat"
+
 start_offset = 8
 ele_offsets = [0, 4, 8, 12, 16, 24, 32, 40, 44, 64]
 
@@ -75,7 +77,9 @@ ele_offsets = [0, 4, 8, 12, 16, 24, 32, 40, 44, 64]
 df = read_binary_data(binary_file, start_offset, ele_offsets)
 
 # Save the DataFrame to a CSV file
-csv_file = "test_measurements/measurements.csv"
+# csv_file = "test_measurements/measurements.csv"
+csv_file = "/eos/user/j/jlai/Traccc/traccc/data/output/measurements.csv"
+
 df.to_csv(csv_file, index=False)
 
 print(f"{binary_file} saved to {csv_file}")
