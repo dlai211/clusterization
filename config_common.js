@@ -30,22 +30,22 @@ const strip_hits_image= [];
 const imageMap = {
     "barrel_module": {
         images: barrel_image,
-        path: 'plots/barrel',
+        path: 'plots/barrel/',
         title: 'Barrel Module'
     },
     "annulus_module": {
         images: annulus_image,
-        path: 'plots/annulus',
+        path: 'plots/annulus/',
         title: 'Annulus Module'
     },
     "traccc_athena": {
         images: traccc_athena_image,
-        path: 'plots/traccc_athena',
+        path: 'plots/traccc_athena/',
         title: 'Traccc vs. Athena'
     },
     "strip_hits": {
         images: strip_hits_image,
-        path: 'plots/strip_hits',
+        path: 'plots/strip_hits/',
         title: 'Strip Hits'
     }
 };  
