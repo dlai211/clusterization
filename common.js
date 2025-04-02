@@ -5,7 +5,7 @@ let imageData = imageMap[currentCut] || { images: [], title: '' };
 const imageContainer = document.getElementById("image-container");
 const cutTitle = document.getElementById("cut-title");
 const ul = document.getElementById("cut-links");
-let imagesPerRow = 2; // Default number of images per row
+let imagesPerRow = 3; // Default number of images per row
 
 // Function to update images based on selected cut
 function updateImages(cut_name) {
