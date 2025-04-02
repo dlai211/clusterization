@@ -10,6 +10,8 @@ let imagesPerRow = 3; // Default number of images per row
 // Function to update images based on selected cut
 function updateImages(cut_name) {
     imageContainer.innerHTML = "";
+    imageData = imageMap[cut_name] || { images: [], title: '' };
+    console.log(imageData);
     cutTitle.textContent = imageData.title;
 
     document.querySelectorAll("#cut-nav a").forEach(a => a.classList.remove("active"));
@@ -17,9 +19,6 @@ function updateImages(cut_name) {
 
     imageContainer.style.display = "grid";
     imageContainer.style.gridTemplateColumns = `repeat(${imagesPerRow}, 1fr)`;
-
-    imageData = imageMap[cut_name] || { images: [], title: '' };
-    console.log(imageData);
 
     const images = imageData.images.map(file => `${imageData.path}/${file}`);
     images.forEach((img) => {
