@@ -43,7 +43,7 @@ const traccc_athena_image = [
 ];
 
 const strip_hits_image= [
-    "strip_localx_localy.png",  "strip_r_globalz.png",  "strip_stripID.png",
+    "strip_localx_localy.png",  "strip_r_global_z.png",  "strip_stripID.png",
 ];
 
 const imageMap = {
