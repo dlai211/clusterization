@@ -44,6 +44,12 @@ const traccc_athena_image = [
 
 const strip_hits_image= [
     "strip_localx_localy.png",  "strip_r_global_z.png",  "strip_stripID.png",
+    'strip_stripID.png', 'strip_chipID.png', 'strip_offset.png',
+'strip_ITkStripID.png', 'strip_idPhiIndex.png', 'strip_idEtaIndex.png', 'strip_barrel_ec.png', 
+'strip_layer_disk.png', 'strip_side.png', 'strip_phi_module.png', 'strip_eta_module.png', 
+'strip_local_x.png', 'strip_local_y.png', 'strip_global_x.png', 'strip_global_y.png', 
+'strip_global_z.png', 'strip_center0.png', 'strip_center1.png', 'strip_center2.png', 
+'strip_thickness.png', 'strip_width.png', 'strip_length.png', 'strip_phiPitch.png', 'strip_etaPitch.png',
 ];
 
 const imageMap = {
