@@ -66,7 +66,7 @@ const imageMap = {
     "traccc_athena": {
         images: traccc_athena_image,
         path: 'plots/traccc_athena',
-        title: 'Traccc vs. Athena'
+        title: 'Comparison between Traccc & Athena (side 0 only)'
     },
     "strip_hits": {
         images: strip_hits_image,
