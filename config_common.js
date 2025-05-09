@@ -39,7 +39,8 @@ const annulus_image = [
 ];
 
 const traccc_athena_image = [
-    "diff_mea_ec.png",  "diff_mea_ec_log.png",  "diff_num_mea.png",  "diff_num_mea_ec.png"
+    "diff_num_mea.png", "diff_num_mea_ec.png",    "diff_x_barrel.png", "diff_x_barrel_log.png", 
+    "diff_x_annulus.png", "diff_y_annulus.png", "diff_r_annulus.png",  "diff_phi_annulus.png"
 ];
 
 const strip_hits_image= [
@@ -65,8 +66,8 @@ const imageMap = {
     },
     "traccc_athena": {
         images: traccc_athena_image,
-        path: 'plots/traccc_athena',
-        title: 'Comparison between Traccc & Athena (side 0 only)'
+        path: 'plots/traccc_athena0',
+        title: 'Comparison between Traccc & Athena (front side only)'
     },
     "strip_hits": {
         images: strip_hits_image,
